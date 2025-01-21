@@ -1,4 +1,50 @@
+var cursor = document.querySelector(".cursor");
+var cursorinner = document.querySelector(".cursor2");
+var a = document.querySelectorAll("a,button");
+var orangeContainers = document.querySelectorAll(".orangeContainer");
 
+document.addEventListener("mousemove", function (e) {
+  var x = e.clientX;
+  var y = e.clientY;
+  cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
+});
+
+document.addEventListener("mousemove", function (e) {
+  var x = e.clientX;
+  var y = e.clientY;
+  cursorinner.style.left = x + "px";
+  cursorinner.style.top = y + "px";
+});
+
+document.addEventListener("mousedown", function () {
+  cursor.classList.add("click");
+  cursorinner.classList.add("cursorinnerhover");
+});
+
+document.addEventListener("mouseup", function () {
+  cursor.classList.remove("click");
+  cursorinner.classList.remove("cursorinnerhover");
+});
+
+a.forEach((item) => {
+  item.addEventListener("mouseover", () => {
+    cursor.classList.add("hover");
+  });
+  item.addEventListener("mouseleave", () => {
+    cursor.classList.remove("hover");
+  });
+});
+
+orangeContainers.forEach((item) => {
+  item.addEventListener("mouseover", () => {
+    cursor.classList.add("hoveronorange")
+    cursorinner.classList.add("cursorblack");
+  });
+  item.addEventListener("mouseleave", () => {
+    cursor.classList.remove("hoveronorange");
+    cursorinner.classList.remove("cursorblack");
+  });
+});
 // Team Section start
 
   // Intersection Observer to trigger animations when the section is in view
