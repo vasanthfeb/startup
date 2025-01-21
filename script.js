@@ -45,6 +45,17 @@ orangeContainers.forEach((item) => {
     cursorinner.classList.remove("cursorblack");
   });
 });
+
+// mouse end
+
+// Initialize AOS
+AOS.init({
+    duration: 1000, // Duration of animation
+    once: true,     // Trigger only once
+    offset: 100,    // Trigger point for animation
+    disable: 'mobile' // Disable AOS on mobile if needed (optional)
+  });
+
 // Team Section start
 
   // Intersection Observer to trigger animations when the section is in view
@@ -83,4 +94,5 @@ var swiper = new Swiper(".mySwiper", {
 
 
 //cursor
+
 

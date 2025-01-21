@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Office</title>
+    <title>startup</title>
 </head>
 
 <link
@@ -145,15 +145,7 @@ referrerpolicy="no-referrer"
       
 
 
-<script>
-    // Initialize AOS
-    AOS.init({
-      duration: 1000, // Duration of animation
-      once: true,     // Trigger only once
-      offset: 100,    // Trigger point for animation
-      disable: 'mobile' // Disable AOS on mobile if needed (optional)
-    });
-</script>
+
   
 
 
@@ -219,55 +211,6 @@ referrerpolicy="no-referrer"
     <script src="./script.js"></script>
 
 
-    <script>
-      var cursor = document.querySelector(".cursor");
-var cursorinner = document.querySelector(".cursor2");
-var a = document.querySelectorAll("a,button");
-var orangeContainers = document.querySelectorAll(".orangeContainer");
-
-document.addEventListener("mousemove", function (e) {
-  var x = e.clientX;
-  var y = e.clientY;
-  cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
-});
-
-document.addEventListener("mousemove", function (e) {
-  var x = e.clientX;
-  var y = e.clientY;
-  cursorinner.style.left = x + "px";
-  cursorinner.style.top = y + "px";
-});
-
-document.addEventListener("mousedown", function () {
-  cursor.classList.add("click");
-  cursorinner.classList.add("cursorinnerhover");
-});
-
-document.addEventListener("mouseup", function () {
-  cursor.classList.remove("click");
-  cursorinner.classList.remove("cursorinnerhover");
-});
-
-a.forEach((item) => {
-  item.addEventListener("mouseover", () => {
-    cursor.classList.add("hover");
-  });
-  item.addEventListener("mouseleave", () => {
-    cursor.classList.remove("hover");
-  });
-});
-
-orangeContainers.forEach((item) => {
-  item.addEventListener("mouseover", () => {
-    cursor.classList.add("hoveronorange")
-    cursorinner.classList.add("cursorblack");
-  });
-  item.addEventListener("mouseleave", () => {
-    cursor.classList.remove("hoveronorange");
-    cursorinner.classList.remove("cursorblack");
-  });
-});
-
-    </script>
+ 
 </body>
 </html> 
