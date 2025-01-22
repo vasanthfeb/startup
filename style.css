@@ -202,7 +202,7 @@ body{
 
 
  .team-section {
-  padding: 50px 0;
+  /* padding: 50px 0; */
   opacity: 0; /* Initially hidden */
   transform: translateY(100px); /* Start from below the normal position */
   transition: all 2s ease; /* Transition for smooth reveal */
