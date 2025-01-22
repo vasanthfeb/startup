@@ -207,23 +207,6 @@ referrerpolicy="no-referrer"
 
 
 
-  <script>
-    const observer = new IntersectionObserver((entries, observer) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('show');
-      observer.unobserve(entry.target); // Stop observing once the animation is triggered
-    }
-  });
-}, {
-  threshold: 0.5 // Trigger when 50% of the section is in view
-});
-
-// Observe the team section
-const teamSection = document.querySelector('.team-section');
-observer.observe(teamSection);
-
-  </script>
 
      
       
@@ -293,7 +276,24 @@ observer.observe(teamSection);
     
     
     <script src="./script.js"></script>
-
+    <script>
+      const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+        observer.unobserve(entry.target); // Stop observing once the animation is triggered
+      }
+    });
+  }, {
+    threshold: 0.5 // Trigger when 50% of the section is in view
+  });
+  
+  // Observe the team section
+  const teamSection = document.querySelector('.team-section');
+  observer.observe(teamSection);
+  
+    </script>
+  
 
  
 </body>

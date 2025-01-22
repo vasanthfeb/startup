@@ -225,27 +225,6 @@ referrerpolicy="no-referrer"
 
 
 
-  <script>
-    const observer = new IntersectionObserver((entries, observer) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('show');
-      observer.unobserve(entry.target); // Stop observing once the animation is triggered
-    }
-  });
-}, {
-  threshold: 0.5 // Trigger when 50% of the section is in view
-});
-
-// Observe each team member individually
-const teamMembers = document.querySelectorAll('.team-member');
-teamMembers.forEach(member => {
-  observer.observe(member);
-});
-
-
-  </script>
-
 
 
 
@@ -297,6 +276,27 @@ teamMembers.forEach(member => {
     <script src="./script.js"></script>
    
 
+    <script>
+      const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+        observer.unobserve(entry.target); // Stop observing once the animation is triggered
+      }
+    });
+  }, {
+    threshold: 0.5 // Trigger when 50% of the section is in view
+  });
+  
+  // Observe each team member individually
+  const teamMembers = document.querySelectorAll('.team-member');
+  teamMembers.forEach(member => {
+    observer.observe(member);
+  });
+  
+  
+    </script>
+  
 
  
 </body>
