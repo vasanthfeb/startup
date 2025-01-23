@@ -96,3 +96,15 @@ var swiper = new Swiper(".mySwiper", {
 //cursor
 
 
+$('#owl-carousel').owlCarousel({
+  loop: true,
+  margin: 30,
+  dots: false,
+  nav: true,
+
+  rewind: true,
+autoplay:true,	
+    autoplayTimeout:2000,
+    autoplayHoverPause:false,
+
+})

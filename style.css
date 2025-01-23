@@ -1004,3 +1004,24 @@ a{
 
 
 /* home page services end */
+
+
+/* carousel start */
+.contain {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.item {
+  align-items: center;
+  background-color: rgba(255, 99, 71, 0);
+  color: white;
+  display: flex;
+  /* height: 300px; */
+  justify-content: center;
+  /* width: 150px; */
+  border: 2px solid  salmon;
+  padding: 20px;
+}
+/* carousel end */
