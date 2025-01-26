@@ -1033,3 +1033,10 @@ a{
   padding: 20px;
 }
 /* carousel end */
+
+p::selection{
+  background-color: #ff6700 !important;
+}
+h1::selection{
+  background-color: #ff6700 !important;
+}
