@@ -108,3 +108,26 @@ autoplay:true,
     autoplayHoverPause:false,
 
 })
+
+
+
+$(document).ready(function() {
+  function onScroll() {
+    $('.team-section').each(function() {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+
+      if (viewportBottom > elementTop && viewportTop < elementBottom) {
+        $(this).addClass('visible');
+      }
+    });
+  }
+
+  // Run the onScroll function when the page loads and on scroll
+  $(window).on('scroll', onScroll);
+  onScroll(); // Trigger the function on page load to check if the section is already in view
+});
+
+// our team end

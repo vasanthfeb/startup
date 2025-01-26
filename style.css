@@ -203,18 +203,21 @@ body{
 
  /* our team start */
 
-
  .team-section {
-  /* padding: 50px 0; */
-  opacity: 0; /* Initially hidden */
-  transform: translateY(100px); /* Start from below the normal position */
-  transition: all 2s ease; /* Transition for smooth reveal */
+  opacity: 0;
+  transform: translateY(150px); /* Start position off-screen */
+  transition: opacity 0.9s ease, transform 2s ease; /* Transition properties */
 }
 
-.team-section.show {
+/* Class to trigger the animation when section is visible */
+.team-section.visible {
   opacity: 1;
-  transform: translateY(0); /* Move to normal position */
+  transform: translateY(0); /* End position */
 }
+
+
+
+
 
 .team-card {
   position: relative;
