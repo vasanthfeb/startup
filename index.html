@@ -459,18 +459,27 @@ referrerpolicy="no-referrer"
 <!-- carousel end -->
 
 <script>
-  $('#owl-carousel').owlCarousel({
-  loop: true,
-  margin: 30,
-  dots: false,
-  nav: true,
-
-  rewind: true,
-autoplay:true,	
-    autoplayTimeout:2000,
-    autoplayHoverPause:false,
-
-})
+ $('#owl-carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        dots: false,
+        nav: true,
+        rewind: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: false,
+        responsive: {
+            0: {
+                items: 2 
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3 
+            }
+        }
+    })
 </script>
 
 
