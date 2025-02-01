@@ -7,6 +7,20 @@
 </head>
 
 
+
+<!-- Swiper CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9.3.2/swiper-bundle.min.css"
+/>
+
+<!-- Swiper JS -->
+<script
+  src="https://cdn.jsdelivr.net/npm/swiper@9.3.2/swiper-bundle.min.js"
+></script>
+
+
+
 <!-- carousel start -->
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -216,7 +230,7 @@ referrerpolicy="no-referrer"
             </div>
             <div class="swiper-slide text-start">
               <img
-                src="./img/click_to_gain_banner_4.jpg"
+                src="./img/click_to_gain_banner_2.jpg"
                 alt="click_to_gain_banner"
                 class="clickToGainBanner1Rel"
               />
@@ -235,19 +249,12 @@ referrerpolicy="no-referrer"
                 </a>
               </div>
             </div>
-            <!-- <div class="swiper-slide">
-              <img
-                src="./assets/img/click_to_gain_banner_2.jpg"
-                alt="click_to_gain_banner"
-              />
-            </div> -->
-            <!-- <div class="swiper-slide">
-              <img
-                src="./assets/img/click_to_gain_banner_3.jpg"
-                alt="click_to_gain_banner"
-              />
-            </div> -->
           </div>
+
+          <!-- Remove Pagination and Navigation Controls -->
+          <!-- <div class="swiper-pagination"></div> -->
+          <!-- <div class="swiper-button-next"></div> -->
+          <!-- <div class="swiper-button-prev"></div> -->
         </div>
       </div>
       <div class="col-xl-4">
@@ -276,6 +283,26 @@ referrerpolicy="no-referrer"
     </div>
   </div>
 </section>
+
+<!-- Swiper JS Script -->
+<script>
+  // Initialize Swiper without arrows and pagination
+  var swiper = new Swiper('.mySwiper', {
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    navigation: false, // Disable navigation arrows
+    pagination: false, // Disable pagination dots
+    spaceBetween: 10,
+    slidesPerView: 1,
+  });
+</script>
+
+
+
+
 <!-- banner end -->
 
     
@@ -403,8 +430,7 @@ referrerpolicy="no-referrer"
 <!-- services end -->
 
 
-    
-    
+ <!-- carousel start --> 
 <div class="container mt-5 mb-5">
   <div class="row">
     <div class="col-lg-5">
