@@ -723,7 +723,9 @@ a{
 .services-box-icon-4:hover {
   background-color: transparent; /* Fade out the background color */
 }
-
+.sub-title{
+  color: #dcdcdc;
+}
 .services-box-icon-4:hover::before {
   opacity: 1; /* Gradually reveal the background image */
 }
