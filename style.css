@@ -9,11 +9,11 @@
 .header_container {
     position: relative;
     height:112px !important;
-    background-color: rgba(238, 238, 238, 0.712);
+    /* background-color: rgba(238, 238, 238, 0.712); */
    
    
   }
-  
+ 
   @media (max-width: 992px) {
 
    
