@@ -1098,3 +1098,41 @@ h1::selection{
         color: #ffffff;
         text-decoration: none;
       }
+
+      /* home icon slide start */
+     .icon_pad{
+      padding: 20px 70px !important;
+     } 
+.marquee-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.marquee-content {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 30s linear infinite;
+}
+
+.marquee-item {
+  flex: 0 0 auto;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.marquee-item img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
