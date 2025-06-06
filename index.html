@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup</title>
+</head>
+
+
+
+<!-- Swiper CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9.3.2/swiper-bundle.min.css"
+/>
+
+<!-- Swiper JS -->
+<script
+  src="https://cdn.jsdelivr.net/npm/swiper@9.3.2/swiper-bundle.min.js"
+></script>
+
+
+
+<!-- carousel start -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+<!-- carousel end -->
+
+
+<link
+rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  
+
+<!-- Font Awesome for social icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+/>
+
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.css"
+integrity="sha512-Y1c7KsgMNtf7pIhrj/Ul2LhutImFYr+TsCmjB8mGAk+cgG1Vm8U1g7tvfmRr6yD5nds03Qgc6Mcb86MBKu1Llg=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+/>
+
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+/>
+
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+/>
+
+
+
+<link rel="stylesheet" href="./style.css">
+<body>
+  
+  <div class="cursor"></div>
+  <div class="cursor2"></div>
+<!-- header start -->
+
+    <header class=" header_container  bg-light " id="header">
+        
+        <!-- navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg py-3 bg-light">
+          <div class="container mt-0">
+            <span class="logo_container">
+              <div class="logo_back"></div>
+              <a class="navbar-brand outer_logo mx-2 mx-md-4" href="./index.html"><img
+                  src="./img/theboys.png" alt="click_to_gain_logo" class="w-100"/>
+            </a>
+            </span>
+            <button
+              class="btn navbar-toggler px-2"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-start-lg"
+              tabindex="-1"
+              id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel"
+            >
+              <div class="offcanvas-header d-flex d-lg-none">
+                <a class="navbar-brand" style="width: 90px" href="./index.html"
+                  ><img
+                    src="./img/click_to_gain_logo.png"
+                    alt="click_to_gain_logo"
+                    class="w-100"
+                /></a>
+                <a
+                  href="javascript:void(0) "
+                  class="text-reset p-0"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="close"
+                >
+                  <i class="fa-solid fa-xmark fs-1"></i>
+                </a>
+              </div>
+              <div class="nav_right">
+                <div class="offcanvas-body p-lg-0 nav_link_container">
+                  <ul class="navbar-nav ms-auto my-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active font_2" aria-current="page" href="./index.html"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item ms-xl-2">
+                      <a class="nav-link font_2" href="./about.html" >About Us</a>
+                    </li>
+                    <li class="nav-item ms-xl-2">
+                      <a class="nav-link font_2" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item ms-xl-2">
+                      <a class="nav-link font_2" href="./our_works.html">Our Works</a>
+                    </li>
+  
+                    <li class="nav-item ms-xl-2">
+                      <a class="nav-link font_2 " href="./contact.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- navbar end -->
+    </header>
+      <!-- header end -->
+
+      
+
+ <!-- banner -->
+ <section class="banner mt-5 mb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-8 banner1">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide text-start">
+              <img
+                src="./img/click_to_gain_banner_1.jpg"
+                alt="click_to_gain_banner"
+                class="clickToGainBanner1Rel"
+              />
+              <div class="clickToGainBannerText clickToGainBanner1Abs">
+                <h1 class="h1 title2 text-wrap w-50">
+                  Lorem ipsum dolor sit amet, adipisicing elit amet.
+                </h1>
+                <p class="m-0 mt-3 fs-6">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <a
+                  href="./contact.html"
+                  class="clickToGainBannerBtn btn mt-3 fw-bold px-4"
+                >
+                  Contact Us
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide text-start">
+              <img
+                src="./img/click_to_gain_banner_2.jpg"
+                alt="click_to_gain_banner"
+                class="clickToGainBanner1Rel"
+              />
+              <div class="clickToGainBannerText clickToGainBanner1Abs">
+                <h1 class="h1 title2 text-wrap w-50">
+                  Lorem ipsum dolor sit amet, adipisicing elit amet.
+                </h1>
+                <p class="m-0 mt-3 fs-6">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <a
+                  href="./contact.html"
+                  class="clickToGainBannerBtn btn mt-3 fw-bold px-4"
+                >
+                  Contact Us
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide text-start">
+              <img
+                src="./img/click_to_gain_banner_3.jpg"
+                alt="click_to_gain_banner"
+                class="clickToGainBanner1Rel"
+              />
+              <div class="clickToGainBannerText clickToGainBanner1Abs">
+                <h1 class="h1 title2 text-wrap w-50">
+                  Lorem ipsum dolor sit amet, adipisicing elit amet.
+                </h1>
+                <p class="m-0 mt-3 fs-6">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <a
+                  href="./contact.html"
+                  class="clickToGainBannerBtn btn mt-3 fw-bold px-4"
+                >
+                  Contact Us
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide text-start">
+              <img
+                src="./img/click_to_gain_banner_2.jpg"
+                alt="click_to_gain_banner"
+                class="clickToGainBanner1Rel"
+              />
+              <div class="clickToGainBannerText clickToGainBanner1Abs">
+                <h1 class="h1 title2 text-wrap w-50">
+                  Lorem ipsum dolor sit amet, adipisicing elit amet.
+                </h1>
+                <p class="m-0 mt-3 fs-6">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <a
+                  href="./contact.html"
+                  class="clickToGainBannerBtn btn mt-3 fw-bold px-4"
+                >
+                  Contact Us
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Remove Pagination and Navigation Controls -->
+          <!-- <div class="swiper-pagination"></div> -->
+          <!-- <div class="swiper-button-next"></div> -->
+          <!-- <div class="swiper-button-prev"></div> -->
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="banner2 d-flex align-items-center mt-5 mt-xl-0">
+          <div class="banner2Text p-4">
+            <p class="m-0 mb-2">Lorem ipsum</p>
+            <h1 class="title2">Lorem ipsum, dolor sit amet elit.</h1>
+            <p class="mt-3">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptas, maiores?
+            </p>
+            <ul class="mt-3">
+              <li>Improved page loads and SEO</li>
+              <li class="mt-2">Free domain, email and support included</li>
+              <li class="mt-2">30-day money back guarantee</li>
+            </ul>
+            <a
+              href="./about.html"
+              class="clickToGainBannerBtn btn mt-3 fw-bold px-4"
+            >
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Swiper JS Script -->
+<script>
+  // Initialize Swiper without arrows and pagination
+  var swiper = new Swiper('.mySwiper', {
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    navigation: false, // Disable navigation arrows
+    pagination: false, // Disable pagination dots
+    spaceBetween: 10,
+    slidesPerView: 1,
+  });
+</script>
+
+
+
+
+<!-- banner end -->
+
+    
+    
+<!-- services -->
+<section class="mt-5 margin-top">
+  <div class="container">
+    <div class="text-center">
+      <span class="smallHeading">What we're offering</span>
+      <h1 class="bigHeading mt-2">
+        Services Built Specifically<br />
+        for your Business
+      </h1>
+    </div>
+    <div class="servicesBox mt-4">
+      <div class="row my-4">
+        <!-- serviceBox 1 -->
+        <div class="col-xl-6">
+          <div class="servicesBox1">
+            <div class="d-md-flex justify-content-md-between">
+              <div
+                class="servicesBoxText pt-5 ps-md-5 pe-md-0 pe-3 ps-3 pb-5"
+              >
+                <h3 class="bigHeading">UI UX Design</h3>
+                <p class="m-0">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facere vitae nam porro repellat illum aut, cupiditate
+                  aspernatur accusantium natus harum sit iure maiores enim
+                </p>
+              </div>
+              <div class="servicesBoxImg pt- pt-md-5">
+                <img
+                src="./img/click_to_gain_services_img_1.jpg"
+                  alt="click_to_gain_services_img_1"
+                  class=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- serviceBox 1 end -->
+
+        <!-- serviceBox 2 -->
+        <div class="col-xl-6 mt-4 mt-xl-0">
+          <div class="servicesBox2">
+            <div class="d-block d-md-flex justify-content-md-between">
+              <div class="servicesBoxImg pt-md-5 pt-0">
+                <img
+                src="./img/click_to_gain_services_img_1.jpg"
+                  alt="click_to_gain_services_img_2"
+                  class=""
+                />
+              </div>
+              <div
+                class="servicesBoxText pt-5 pe-md-5 pe-3 pb-5 ps-3 ps-md-0"
+              >
+                <h3 class="bigHeading">Web Development</h3>
+                <p class="m-0">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facere vitae nam porro repellat illum aut, cupiditate
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- serviceBox  end -->
+      </div>
+      <div class="row my-4">
+        <!-- serviceBox 3 -->
+        <div class="col-xl-6">
+          <div class="servicesBox3">
+            <div class="d-block d-md-flex justify-content-md-between">
+              <div
+                class="servicesBoxText pt-5 ps-md-5 ps-3 pe-3 pe-md-0 pb-5"
+              >
+                <h3 class="bigHeading">Graphics Design</h3>
+                <p class="m-0">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facere vitae nam porro repellat illum aut, cupiditate ab
+                  unde cumque! Sed, at mollitia!
+                </p>
+              </div>
+              <div class="servicesBoxImg pb-0 pb-md-5">
+                <img
+                src="./img/click_to_gain_services_img_1.jpg"
+                  alt="click_to_gain_services_img_4"
+                  class=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- serviceBox 3 end -->
+
+        <!-- serviceBox 4 -->
+        <div class="col-xl-6 mt-4 mt-xl-0">
+          <div class="servicesBox4">
+            <div class="d-block d-md-flex justify-content-md-between">
+              <div class="servicesBoxImg pb-5">
+                <img
+                  src="./img/click_to_gain_services_img_1.jpg"
+                  alt="click_to_gain_services_img_3"
+                  class=""
+                />
+              </div>
+              <div
+                class="servicesBoxText pt-0 pt-md-5 ps-3 pe-md-5 pe-3 pb-5"
+              >
+                <h3 class="bigHeading">SEO</h3>
+                <p class="m-0">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facere vitae nam porro repellat illum aut, cupiditate
+                  aspernatur accusantium natus harum sit iure maiores enim
+                  ab unde 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- serviceBox 4 end -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- services end -->
+
+
+ <!-- carousel start --> 
+<div class="container mt-5 mb-5">
+  <div class="row">
+    <div class="col-lg-5">
+      <h2 class="text-light">Title</h2><p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quod libero earum provident, quaerat neque, eligendi animi tempora voluptates eveniet amet molestiae praesentium aliquid voluptas voluptatum iste totam ipsa obcaecati.</p>
+    </div>
+    <div class="col-lg-7">
+      <div class="contain">
+        <div id="owl-carousel" class="owl-carousel owl-theme">
+          <div class="item">
+            <div>
+              <img src="./img/2.png" alt="">
+              <h4 class="text-center">Title</h4>
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <img src="./img/2.png" alt="">
+              <h4 class="text-center">Title</h4>
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <img src="./img/2.png" alt="">
+              <h4 class="text-center">Title</h4>
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <img src="./img/2.png" alt="">
+              <h4 class="text-center">Title</h4>
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <img src="./img/2.png" alt="">
+              <h4 class="text-center">Title</h4>
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <img src="./img/2.png" alt="">
+              <h4 class="text-center">Title</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+<!-- carousel end -->
+
+<script>
+ $('#owl-carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        dots: false,
+        nav: true,
+        rewind: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: false,
+        responsive: {
+            0: {
+                items: 2 
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3 
+            }
+        }
+    })
+</script>
+
+
+
+
+
+<!-- footer -->
+<footer  class="footer pt-5 margin-top">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-3 ">
+        <div class="footerDiv">
+          <a href="./index.html">
+            <img
+              src="./img/click_to_gain_logo.png"
+              alt="click_to_gain_logo"
+              class="click_to_gain_logo"
+            />
+          </a>
+          <p class="mt-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            nulla nisi architecto in cumque libero!
+          </p>
+        </div>
+      </div>
+
+
+
+
+      <div class=" col-lg-3 justify-content-lg-center d-flex">
+        <div class="footerDiv">
+          <h4 class="footerDiv-title">Link Tree</h4>
+          <ul class="ps-3 mt-4">
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+            <li>
+              <a href="./terms-and-conditions.html">Terms & Conditions</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+      <div
+      class="col-lg-3 justify-content-lg-center d-flex">
+    
+      <div class="footerDiv">
+        <h4 class="footerDiv-title">Our Offerings</h4>
+        <ul class="ps-3 mt-4">
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Graphic Design</a></li>
+          <li><a href="#">UI UX Design</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="col-lg-3 justify-content-lg-center  d-flex">
+      <div class="footerDiv">
+        <h4 class="footerDiv-title">Buzz Links</h4>
+        <div class="d-flex fs-4 mt-4 gap-3 social-iconss">
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-github"></a>
+          <a href="#" class="fab fa-linkedin-in"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright mt-5 text-center py-3">
+      <div class="fs-6">
+        copyright © 2025 ClickToGain. All Rights Reserved.
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+ </footer>
+<!-- footer end -->
+
+
+
+
+
+
+
+      <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
+      integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+      integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+      integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.js"
+      integrity="sha512-+z66PuMP/eeemN2MgRhPvI3G15FOBbsp5NcCJBojg6dZBEFL0Zoi0PEGkhjubEcQF7N1EpTX15LZvfuw+Ej95Q==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    </script>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    </script>     
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    
+    
+    <script src="./script.js"></script>
+
+   
+    
+</body>
+
+</html> 
