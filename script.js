@@ -1,3 +1,4 @@
+
 var cursor = document.querySelector(".cursor");
 var cursorinner = document.querySelector(".cursor2");
 var a = document.querySelectorAll("a,button");

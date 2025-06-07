@@ -1136,3 +1136,40 @@ h1::selection{
     transform: translateX(-50%);
   }
 }
+
+
+/* go to top */
+  
+    #goTopBtn {
+      position: fixed;
+      bottom: 80px;
+      right: 30px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #ff6700;
+      color: white;
+      border: none;
+      align-items: center;
+      justify-content: center;
+      box-shadow: #ff6700;
+      z-index: 1000;
+      transition: opacity 0.4s ease, background-color 0.3s ease;
+      opacity: 0;
+      pointer-events: none;
+      display: flex;
+      border: 2px solid #ff6700 !important;
+    }
+
+    #goTopBtn.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    #goTopBtn:hover {
+      background-color: #ff6700;
+    }
+
+    #goTopBtn i {
+      font-size: 20px;
+    }
