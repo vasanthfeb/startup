@@ -1259,7 +1259,7 @@ form {
 
 textarea.input {
   padding: 0.8rem 1.2rem;
-  min-height: 150px;
+  /* min-height: 10px; */
   border-radius: 5px;
   resize: none;
   overflow-y: auto;
@@ -1417,7 +1417,7 @@ textarea.input {
   height: 100px;
   border: 22px solid #ff6347;
   border-radius: 50%;
-  bottom: -77px;
+  bottom: -47px;
   right: 50px;
   opacity: 0.3;
 }
