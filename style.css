@@ -3,7 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend&family=Sen:wght@400..800&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Afacad+Flux:wght@100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend&family=Sen:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* header start */
 .header_container {
@@ -641,7 +641,7 @@ a{
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/gd.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/gd2.jpg");
   background-position: center;
   background-size: cover;
   opacity: 0; /* Initially hide the background image */
@@ -1426,6 +1426,7 @@ textarea.input {
 
 
 
+
 .square {
   position: absolute;
   height: 400px;
@@ -1514,3 +1515,34 @@ textarea.input {
     padding: 0.45rem 1.2rem;
   } */
 }
+
+
+/* contact us */
+.iii{
+    border: 3px solid #ff6347;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 19px;
+    color: rgb(90, 90, 90);
+
+    }
+  .ogange{
+    color: #ff6347 !important;
+    font-size: 25px;
+    font-weight: 600;
+  }
+ h6:hover .iii{
+   color: rgb(255, 255, 255) !important;
+  background-color: #ff6347;
+  transition: ease 0.5s;
+ }
+
+ .orange_title{
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #ff6347;
+}
+ 
