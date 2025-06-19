@@ -1545,4 +1545,56 @@ textarea.input {
   font-style: normal;
   color: #ff6347;
 }
- 
+ /* breadcrumb_bg start */
+
+   .breadcrumb_bg {
+  background-color: #0000001c;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+  color: #ffffff !important;
+}
+.breadcrumb_active{
+  color: #ff6700;
+}
+.breadcrumb-item a:hover{
+  color: #dcdcdc;
+}
+/* Left orange shape */
+
+.breadcrumb_bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  background-color: #ff6347;
+  clip-path: path("M0,10 C90,30 60,60 0,100 L0,10 Z");
+}
+
+/* Right orange shape */
+.breadcrumb_bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  background-color: #ff6700;
+  clip-path: path("M100,0 C10,90 5,110 100,200 L100,0 Z");
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+  .breadcrumb_bg::before,
+  .breadcrumb_bg::after {
+    width: 60px;
+  }
+}
+
+
+
+/* breadcrumb_bg end */
