@@ -1571,7 +1571,7 @@ textarea.input {
   left: 0;
   width: 100px;
   height: 100%;
-  background-color: #ff6347;
+  background-color: #ff63477e;
   clip-path: path("M0,10 C90,30 60,60 0,100 L0,10 Z");
 }
 
@@ -1583,7 +1583,7 @@ textarea.input {
   right: 0;
   width: 100px;
   height: 100%;
-  background-color: #ff6700;
+  background-color: #ff63477e;
   clip-path: path("M100,0 C10,90 5,110 100,200 L100,0 Z");
 }
 
