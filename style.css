@@ -1568,24 +1568,68 @@ textarea.input {
   content: "";
   position: absolute;
   top: 0;
-  left: 0;
+ left: -100px; /* Start off-screen */
   width: 100px;
   height: 100%;
   background-color: #ff63477e;
   clip-path: path("M0,10 C90,30 60,60 0,100 L0,10 Z");
+  animation: slideInLeft 1s ease-out forwards;
 }
 
 /* Right orange shape */
 .breadcrumb_bg::after {
   content: "";
   position: absolute;
+   right: -100px; /* Start off-screen */
   top: 0;
-  right: 0;
+  
   width: 100px;
   height: 100%;
   background-color: #ff63477e;
   clip-path: path("M100,0 C10,90 5,110 100,200 L100,0 Z");
+   animation: slideInRight 1s ease-out forwards;
+  animation-delay: 0.2s; /* Slight delay for staggered effect */
 }
+@keyframes slideInLeft {
+  to {
+    left: 0;
+  }
+}
+
+@keyframes slideInRight {
+  to {
+    right: 0;
+  }
+}
+@media (max-width: 768px) {
+  .breadcrumb_bg::before,
+  .breadcrumb_bg::after {
+    width: 60px;
+  }
+
+  .breadcrumb_bg::before {
+    left: -60px;
+    animation: slideInLeftMobile 1s ease-out forwards;
+  }
+
+  .breadcrumb_bg::after {
+    right: -60px;
+    animation: slideInRightMobile 1s ease-out forwards;
+  }
+}
+
+@keyframes slideInLeftMobile {
+  to {
+    left: 0;
+  }
+}
+
+@keyframes slideInRightMobile {
+  to {
+    right: 0;
+  }
+}
+
 
 /* Responsive adjustment */
 @media (max-width: 768px) {
