@@ -1775,3 +1775,21 @@ textarea.input {
   background-color: #0e0d17 !important;
 }
 /* about us first section end*/
+
+
+    .slide-image {
+     
+      position: absolute;
+     
+      right: -300px; /* start off-screen */
+      animation: slideRight 2s forwards; /* adjust duration */
+    }
+
+    @keyframes slideRight {
+      from {
+        right: -200px;
+      }
+      to {
+        right: 0%; /* move to the right edge */
+      }
+    }
