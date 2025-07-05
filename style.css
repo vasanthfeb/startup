@@ -1055,7 +1055,7 @@ h1::selection{
 .image-card {
         position: relative;
         overflow: hidden;
-        border-radius: 10px;
+        /* border-radius: 10px; */
       }
 
       .image-card img {
@@ -1088,7 +1088,7 @@ h1::selection{
       }
 
       .image-card:hover .image-overlay {
-        opacity: 1;
+        opacity: 9;
       }
 
       .overlay-content {
