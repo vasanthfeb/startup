@@ -1793,3 +1793,13 @@ textarea.input {
         right: 0%; /* move to the right edge */
       }
     }
+    .banner2 li{
+      color: #0e0d17;
+      
+    }
+    .btn-success, .btn-success:hover{
+      background-color: #0e0d17;
+      color: #ffffff;
+      border: 2px solid black;
+    }
+    
