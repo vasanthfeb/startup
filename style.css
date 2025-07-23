@@ -1558,6 +1558,9 @@ textarea.input {
   color: white;
   position: relative;
   overflow: hidden;
+  height: 140px;
+  display: flex;
+  align-items: center;
 }
 .breadcrumb-item + .breadcrumb-item::before{
   color: #ffffff !important;
