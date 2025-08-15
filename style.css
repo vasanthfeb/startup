@@ -1085,10 +1085,12 @@ h1::selection{
         display: flex;
         align-items: flex-end;
         padding: 20px;
+       
       }
 
       .image-card:hover .image-overlay {
         opacity: 9;
+        background-color: #000000c3;
       }
 
       .overlay-content {
@@ -1805,4 +1807,6 @@ textarea.input {
       color: #ffffff;
       border: 2px solid black;
     }
-    
+    .site_title{
+      font-weight: 700;
+    }
