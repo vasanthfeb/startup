@@ -272,13 +272,16 @@ body{
   color: #ff6347;
 }
 .fa-github:hover{
-  color: red !important;
+  color: #ff6700
+ !important;
 }
 .fa-linkedin-in:hover{
-  color: red !important;
+  color: #ff6700
+ !important;
 }
 .fa-instagram:hover{
-  color: red !important;
+  color: #ff6700
+ !important;
 }
 .name {
   color: #dcdcdc;
@@ -1063,6 +1066,7 @@ h1::selection{
         height: auto;
         display: block;
         transition: transform 0.5s ease;
+        border-radius: 7px;
       }
 
       .image-card:hover img {
@@ -1085,12 +1089,14 @@ h1::selection{
         display: flex;
         align-items: flex-end;
         padding: 20px;
+        border-radius: 7px;
+        
        
       }
 
       .image-card:hover .image-overlay {
         opacity: 9;
-        background-color: #000000c3;
+        background-color: #161523;
       }
 
       .overlay-content {
@@ -1599,7 +1605,8 @@ textarea.input {
   background-color: #ff63477e;
   clip-path: path("M100,0 C10,90 5,110 100,200 L100,0 Z");
    animation: slideInRight 1s ease-out forwards;
-  animation-delay: 0.2s; /* Slight delay for staggered effect */
+  animation-delay: 0.2s; /* Slight delay for stagge#ff6700
+ effect */
 }
 @keyframes slideInLeft {
   to {
@@ -1650,7 +1657,26 @@ textarea.input {
   }
 }
 
+/* wHATSAPP */
+#whatsapp-sticky {
+    position: fixed;
+    bottom: 140px; /* distance from bottom */
+    right: 30px;  /* distance from right */
+    z-index: 9999; /* stay above all elements */
+  }
 
+  #whatsapp-sticky img {
+    width: 50px;
+    height: 50px;
+    border-radius: 0%; /* optional: make it round */
+   
+    transition: transform 0.3s ease;
+  }
+
+  #whatsapp-sticky img:hover {
+    transform: scale(1.1); /* zoom effect on hover */
+  }
+/* wHATSAPP */
 
 /* breadcrumb_bg end */
 
