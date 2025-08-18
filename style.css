@@ -269,7 +269,7 @@ body{
 }
 
 .social-icons a:hover {
-  color: #ff6347;
+  color: #ff6700;
 }
 .fa-github:hover{
   color: #ff6700
@@ -293,7 +293,7 @@ body{
 }
 
 .team-card:hover + .name {
-  color: #ff6347;
+  color: #ff6700;
 }
 
 
@@ -426,10 +426,10 @@ a{
   color: #dcdcdc;
 }
 li{
-  color: #ff6347;
+  color: #ff6700;
 }
 li a:hover{
-  color: #ff6347;
+  color: #ff6700;
 }
 /* footer end */
 
@@ -650,7 +650,7 @@ li a:hover{
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/gd2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/gd\(1\).jpg");
   background-position: center;
   background-size: cover;
   opacity: 0; /* Initially hide the background image */
@@ -1040,7 +1040,7 @@ li a:hover{
   /* height: 300px; */
   justify-content: center;
   /* width: 150px; */
-  border: 2px solid  salmon;
+  border: 2px solid  #ff6700;
   padding: 20px;
 }
 /* carousel end */
@@ -1429,7 +1429,7 @@ textarea.input {
   position: absolute;
   width: 110px;
   height: 100px;
-  border: 22px solid #ff6347;
+  border: 22px solid #ff6700;
   border-radius: 50%;
   bottom: -47px;
   right: 50px;
@@ -1533,7 +1533,7 @@ textarea.input {
 
 /* contact us */
 .iii{
-    border: 3px solid #ff6347;
+    border: 3px solid #ff6700;
     padding: 12px;
     border-radius: 50%;
     font-size: 16px;
@@ -1542,13 +1542,13 @@ textarea.input {
 
     }
   .ogange{
-    color: #ff6347 !important;
+    color: #ff6700 !important;
     font-size: 25px;
     font-weight: 600;
   }
  h6:hover .iii{
    color: rgb(255, 255, 255) !important;
-  background-color: #ff6347;
+  background-color: #ff6700;
   transition: ease 0.5s;
  }
 
@@ -1557,7 +1557,7 @@ textarea.input {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  color: #ff6347;
+  color: #ff6700;
 }
  /* breadcrumb_bg start */
 
@@ -1588,7 +1588,7 @@ textarea.input {
  left: -100px; /* Start off-screen */
   width: 100px;
   height: 100%;
-  background-color: #ff63477e;
+  background-color: #ff67007e;
   clip-path: path("M0,10 C90,30 60,60 0,100 L0,10 Z");
   animation: slideInLeft 1s ease-out forwards;
 }
@@ -1602,7 +1602,7 @@ textarea.input {
   
   width: 100px;
   height: 100%;
-  background-color: #ff63477e;
+  background-color: #ff67007e;
   clip-path: path("M100,0 C10,90 5,110 100,200 L100,0 Z");
    animation: slideInRight 1s ease-out forwards;
   animation-delay: 0.2s; /* Slight delay for stagge#ff6700
