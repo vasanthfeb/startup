@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend&family=Sen:wght@400..800&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Afacad+Flux:wght@100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend&family=Sen:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+  @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
 /* header start */
 .header_container {
     position: relative;
@@ -1836,3 +1836,10 @@ textarea.input {
     .site_title{
       font-weight: 700;
     }
+
+
+    
+/* box ============================*/
+
+
+/* box ============================*/
