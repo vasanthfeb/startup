@@ -1839,7 +1839,18 @@ textarea.input {
 
 
     
-/* box ============================*/
+/* our work tranisition start ============================*/
 
+ #tran {
+    opacity: 0;
+    transform: translateY(50px); /* start from bottom */
+    transition: opacity 2s ease, transform 2s ease; /* slower */
+  }
 
-/* box ============================*/
+  /* When visible */
+  #tran.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+/*  our work tranisition  end ============================*/
