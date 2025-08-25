@@ -139,7 +139,7 @@ rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/cs
         
         </div>
 
-        <div class="contact-form">
+        <div class="contact-form" id="contact-form">
           <span class="circle one"></span>
           <span class="circle two"></span>
 
@@ -168,6 +168,23 @@ rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/cs
             <input type="submit" value="Send" class="btn btn-success" />
           </form>
         </div>
+
+<!-- contact transition start -->
+        <script>
+  const contactForm = document.getElementById("contact-form");
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        contactForm.classList.add("show");
+      }
+    });
+  });
+
+  observer.observe(contactForm);
+</script>
+
+<!-- contact transition end -->
       </div>
     </div>
 </main>

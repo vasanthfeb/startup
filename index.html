@@ -247,7 +247,7 @@ referrerpolicy="no-referrer" />
           <!-- <div class="swiper-button-prev"></div> -->
         </div>
       </div>
-      <div class="col-xl-4">
+      <div class="col-xl-4" id="home_right">
         <div class="banner2 d-flex align-items-center mt-5 mt-xl-0">
           <div class="banner2Text p-4">
             <p class="m-0 mb-2">Lorem ipsum</p>
@@ -270,6 +270,22 @@ referrerpolicy="no-referrer" />
           </div>
         </div>
       </div>
+
+      <!-- home_right transition -->
+       <script>
+  const home_right = document.getElementById("home_right");
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        home_right.classList.add("show");
+      }
+    });
+  });
+
+  observer.observe(home_right);
+</script>
+      <!-- home_right transition -->
     </div>
   </div>
 </section>

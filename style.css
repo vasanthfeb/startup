@@ -1853,4 +1853,27 @@ textarea.input {
     transform: translateY(0);
   }
 
-/*  our work tranisition  end ============================*/
+  /* ======= contact transition start ========*/
+#contact-form {
+    opacity: 0;
+    transform: translateX(100px); /* start from right */
+    transition: opacity 1.5s ease, transform 1.5s ease; /* slow */
+  }
+
+  #contact-form.show {
+    opacity: 1;
+    transform: translateX(0); /* move to normal position */
+  }
+
+
+  #home_right {
+    opacity: 0;
+    transform: translateX(100px); /* start from right */
+    transition: opacity 1.5s ease, transform 1.5s ease; /* slow */
+  }
+
+  #home_right.show {
+    opacity: 1;
+    transform: translateX(0); /* move to normal position */
+  }
+/*   tranisition  end ============================*/
