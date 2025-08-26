@@ -203,21 +203,7 @@ referrerpolicy="no-referrer"
 </div>
 
 
- <!-- start our work tranisition  -->
- <script>
-    const target = document.getElementById("tran");
 
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          target.classList.add("show");
-        }
-      });
-    });
-
-    observer.observe(target);
-  </script>
-   <!-- our work tranisition end  -->
 </main>
 
 <button id="goTopBtn" title="Go to top">
