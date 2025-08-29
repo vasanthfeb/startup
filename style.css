@@ -168,7 +168,9 @@
 
 
 
- 
+ p{
+  font-family: "Lexend", serif;
+ }
   .nav-link{
     color: rgb(80, 80, 80) !important;
    
@@ -1838,3 +1840,6 @@ textarea.input {
       font-weight: 700;
     }
 
+.w-100{
+  width: 100% !important;
+}
