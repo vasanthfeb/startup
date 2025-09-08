@@ -194,7 +194,7 @@
 body{
   overflow-x: hidden !important;
   /* background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-  background-image: radial-gradient(circle, #670040 0%, #252525 100%);
+  background-image: radial-gradient(circle, #313131  0%, #252525 100%);
   
  
 }
@@ -1569,7 +1569,7 @@ textarea.input {
   color: white;
   position: relative;
   overflow: hidden;
-  height: 140px;
+  height: 120px;
   display: flex;
   align-items: center;
 }
