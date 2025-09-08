@@ -39,7 +39,7 @@
       border-bottom: unset !important;
     }
     .nav-link.active {
-      color: #63023e !important;
+      color: #ff6700 !important;
       border-bottom: unset !important;
     }
     .nav_right .nav_link_container {
@@ -118,7 +118,7 @@
     content: "";
     position: absolute;
     top: 10px;
-    border: 2px solid #63023e;
+    border: 2px solid #ff6700;
     right: -4px;
     width: 10px;
     height: 10px;
@@ -131,12 +131,12 @@
     content: "";
     position: absolute;
     top: 10px;
-    border: 2px solid #63023e;
+    border: 2px solid #ff6700;
     right: -4px;
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #63023e;
+    background-color: #ff6700;
   }
   .navbar .contactBtn {
     font-weight: 600;
@@ -194,7 +194,8 @@
 body{
   overflow-x: hidden !important;
   /* background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-  background-image: radial-gradient(circle, #313131  0%, #252525 100%);
+  /* background-image: radial-gradient(circle, #000000  0%, #252525 100%); */
+  background-color: #000000;
   
  
 }
@@ -398,7 +399,7 @@ body{
   position: absolute;
   display: flex;
   content: "";
-  top: 110%;
+  top: 115%;
   left: 20px;
   width: 50px;
   height: 5px;
@@ -410,7 +411,7 @@ body{
   position: absolute;
   display: flex;
   content: "";
-  top: 110%;
+  top: 115%;
   width: 15px;
   height: 5px;
   z-index: 1;
@@ -583,7 +584,7 @@ li a:hover{
   align-items: center;
   height: 200px;
   border: 2px solid #ff6700;
-  background-color: #161523; /* Default background color */
+  background-color: #06050b; /* Default background color */
   position: relative;
   overflow: hidden; /* To make sure the image stays within the box */
   transition: background-color 0.5s ease-out; /* Smooth transition for background color */
@@ -752,7 +753,7 @@ li a:hover{
 }
 
 .bg-light-gray-color {
-  background-color: #161523;
+  background-color: #06050b;
   color: #ffffff;
 }
 
@@ -945,7 +946,7 @@ li a:hover{
   position: absolute;
   display: flex;
   content: "";
-  top: 110%;
+  top: 115%;
   left: 20px;
   width: 50px;
   height: 5px;
@@ -961,7 +962,7 @@ li a:hover{
   position: absolute;
   display: flex;
   content: "";
-  top: 110%;
+  top: 115%;
   width: 15px;
   height: 5px;
   z-index: -1;
@@ -1099,7 +1100,8 @@ h1::selection{
 
       .image-card:hover .image-overlay {
         opacity: 9;
-        background-color: #161523;
+        background-color: #0f0f0f;
+        
       }
 
       .overlay-content {
@@ -1565,7 +1567,7 @@ textarea.input {
  /* breadcrumb_bg start */
 
    .breadcrumb_bg {
-  background-color: #0000001c;
+  background-color: #0f0f0f;
   color: white;
   position: relative;
   overflow: hidden;
