@@ -194,8 +194,8 @@
 body{
   overflow-x: hidden !important;
   /* background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-  /* background-image: radial-gradient(circle, #000000  0%, #252525 100%); */
-  background-color: #000000;
+  background-image: radial-gradient(circle, #202020  0%, #252525 100%);
+  /* background-color: #202020; */
   
  
 }
@@ -387,7 +387,11 @@ body{
 
 
 /* footer start */
-
+/* .footer{
+  background-image: url(./img/WorldMap.svg);
+  opacity: 0.1;
+ 
+} */
 
 .footerDiv ul li {
   margin-top: 10px;
@@ -584,7 +588,7 @@ li a:hover{
   align-items: center;
   height: 200px;
   border: 2px solid #ff6700;
-  background-color: #06050b; /* Default background color */
+  background-color: #000000; /* Default background color */
   position: relative;
   overflow: hidden; /* To make sure the image stays within the box */
   transition: background-color 0.5s ease-out; /* Smooth transition for background color */
@@ -753,7 +757,7 @@ li a:hover{
 }
 
 .bg-light-gray-color {
-  background-color: #06050b;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -838,7 +842,7 @@ li a:hover{
 .servicesBox3,
 .servicesBox4 {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  background-color: #bbbbbb;
+  background-color: #000000;
   position: relative;
   /* border: 1px solid rgba(0, 0, 0, 0.085); */
   z-index: 0;
@@ -1100,7 +1104,7 @@ h1::selection{
 
       .image-card:hover .image-overlay {
         opacity: 9;
-        background-color: #0f0f0f;
+        background-color: #000000;
         
       }
 
@@ -1567,7 +1571,7 @@ textarea.input {
  /* breadcrumb_bg start */
 
    .breadcrumb_bg {
-  background-color: #0f0f0f;
+  background-color: #000000;
   color: white;
   position: relative;
   overflow: hidden;
