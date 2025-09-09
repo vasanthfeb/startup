@@ -621,7 +621,7 @@ li a:hover{
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/webdev.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/four_icon/webdev.jpg");
   background-position: center;
   background-size: cover;
   opacity: 0; /* Initially hide the background image */
@@ -657,7 +657,7 @@ li a:hover{
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/gd\(1\).jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/four_icon/gd\(1\).jpg");
   background-position: center;
   background-size: cover;
   opacity: 0; /* Initially hide the background image */
@@ -693,7 +693,7 @@ li a:hover{
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/uiux.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/four_icon/uiux.jpg");
   background-position: center;
   background-size: cover;
   opacity: 0; /* Initially hide the background image */
@@ -729,7 +729,7 @@ li a:hover{
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/seo.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/four_icon/seo.jpg");
   background-position: center;
   background-size: cover;
   opacity: 0; /* Initially hide the background image */
