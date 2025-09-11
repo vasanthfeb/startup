@@ -602,7 +602,13 @@ li a:hover{
   overflow: hidden; /* To make sure the image stays within the box */
   transition: background-color 0.5s ease-out; /* Smooth transition for background color */
 }
-
+.dis{
+  color: #fff;
+}
+.bg-lightt{
+  background-color: #131313;
+  color: #dedede;
+}
 .services-box-icon .services-icon-img {
   width: 60px;
   margin-bottom: 20px;
