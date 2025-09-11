@@ -9,10 +9,18 @@
 .header_container {
     position: relative;
     height:112px !important;
+    background-color: #131313 !important;
     /* background-color: rgba(238, 238, 238, 0.712); */
     
    
    
+  }
+  .iicon{
+    color: #ff6700 !important;
+  }
+  .navbar{
+    background-color: #131313   !important;
+    /* backdrop-filter: blur(50px); */
   }
  
   @media (max-width: 992px) {
@@ -20,6 +28,7 @@
    
     .offcanvas {
       width: 300px !important;
+      background-color: #131313 !important;
     }
     .offcanvas-body {
       overflow-y: unset;
@@ -194,8 +203,8 @@
 body{
   overflow-x: hidden !important;
   /* background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-  background-image: radial-gradient(circle, #202020  0%, #252525 100%);
-  /* background-color: #202020; */
+  /* background-image: radial-gradient(circle, #202020  0%, #252525 100%); */
+  background-color: #202020;
   
  
 }
@@ -588,7 +597,7 @@ li a:hover{
   align-items: center;
   height: 200px;
   border: 2px solid #ff6700;
-  background-color: #000000; /* Default background color */
+  background-color: #131313; /* Default background color */
   position: relative;
   overflow: hidden; /* To make sure the image stays within the box */
   transition: background-color 0.5s ease-out; /* Smooth transition for background color */
@@ -757,7 +766,7 @@ li a:hover{
 }
 
 .bg-light-gray-color {
-  background-color: #000000;
+  background-color: #131313;
   color: #ffffff;
 }
 
@@ -842,7 +851,7 @@ li a:hover{
 .servicesBox3,
 .servicesBox4 {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  background-color: #000000;
+  background-color: #131313;
   position: relative;
   /* border: 1px solid rgba(0, 0, 0, 0.085); */
   z-index: 0;
@@ -1104,7 +1113,7 @@ h1::selection{
 
       .image-card:hover .image-overlay {
         opacity: 9;
-        background-color: #000000;
+        background-color: #131313;
         
       }
 
@@ -1560,7 +1569,9 @@ textarea.input {
   background-color: #ff6700;
   transition: ease 0.5s;
  }
-
+.nav-link{
+  color: #ababab !important;
+}
  .orange_title{
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
@@ -1571,7 +1582,7 @@ textarea.input {
  /* breadcrumb_bg start */
 
    .breadcrumb_bg {
-  background-color: #000000;
+  background-color: #3d3d3d3d;
   color: white;
   position: relative;
   overflow: hidden;
