@@ -177,8 +177,12 @@
 
 
 
- p{
+ p, li{
   font-family: "Lexend", serif;
+ }
+ .lexend{
+   font-family: "Lexend", serif !important;
+
  }
   .nav-link{
     color: rgb(80, 80, 80) !important;
@@ -1772,7 +1776,7 @@ textarea.input {
 }
 .aboutUsIconBoxText {
   font-weight: 500;
-  font-family: "Syne", sans-serif;
+  /* font-family: "Syne", sans-serif; */
 }
 
 .shine {
