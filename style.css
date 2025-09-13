@@ -1243,15 +1243,21 @@ h1::selection{
     .form {
   width: 100%;
   max-width: 1200px;
-  background-color: #fff;
+  background-color: #131313;
   border-radius: 10px;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  color: #dedede;
 }
-
+.form a{
+  color: #dedede !important;
+}
+.www{
+  color: #dedede !important;
+}
 .contact-form {
   background-color: #ff6700;
   position: relative;
@@ -1611,6 +1617,9 @@ textarea.input {
   font-weight: 500;
   font-style: normal;
   color: #ff6700;
+}
+.text-justify{
+  text-align: justify;
 }
  /* breadcrumb_bg start */
 
