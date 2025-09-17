@@ -175,7 +175,9 @@
     z-index: 1000;
   }
 
-
+.svg-inline--fa.fa-xmark.fs-1{
+  color:  #ff6700 !important;
+}
 
  p, li{
   font-family: "Lexend", serif;
@@ -1599,7 +1601,7 @@ textarea.input {
     border-radius: 50%;
     font-size: 16px;
     width: 19px;
-    color: rgb(90, 90, 90);
+    color: #dedede ;
 
     }
   .ogange{
@@ -1608,7 +1610,7 @@ textarea.input {
     font-weight: 600;
   }
  h6:hover .iii{
-   color: rgb(255, 255, 255) !important;
+   color: rgb(0, 0, 0) !important;
   background-color: #ff6700;
   transition: ease 0.5s;
  }
