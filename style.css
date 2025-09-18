@@ -1146,6 +1146,7 @@ h1::selection{
         align-items: flex-end;
         padding: 20px;
         border-radius: 7px;
+        border: 2px solid #61033e00;
         
        
       }
@@ -1153,6 +1154,7 @@ h1::selection{
       .image-card:hover .image-overlay {
         opacity: 9;
         background-color: #131313;
+        border: 2px solid #ff6700;
         
       }
 
