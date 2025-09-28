@@ -1109,12 +1109,49 @@ footer.footer::before {
 
 p::selection{
   background-color: #ff6700 !important;
+  color: #ffffff !important;
 }
 h1::selection{
   background-color: #ff6700 !important;
+  color: #ffffff !important;
 }
+span::selection{
+   background-color: #ff6700 !important;
+  color: #ffffff !important;
 
-
+}
+h2::selection{
+   background-color: #ff6700 !important;
+  color: #ffffff !important;
+}
+h5::selection{
+   background-color: #ff6700 !important;
+  color: #ffffff !important;
+}
+div::selection{
+   background-color: #ff6700 !important;
+  color: #ffffff !important;
+}
+h6::selection{
+   background-color: #ff6700 !important;
+  color: #ffffff !important;
+}
+h4::selection{
+   background-color: #ff6700 !important;
+  color: #ffffff !important;
+}
+a::selection{
+   background-color: #ff6700 !important;
+  color: #ffffff !important;
+}
+li::selection{
+   background-color: #ff6700 !important;
+  color: #ffffff !important;
+}
+h3::selection{
+   background-color: #ff6700 !important;
+  color: #ffffff !important;
+}
 /* our work start */
 
 .image-card {
