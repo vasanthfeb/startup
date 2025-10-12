@@ -375,31 +375,31 @@ body{
   object-fit: cover;
 }
 
-.clickToGainBanner1Rel {
+.startupBanner1Rel {
   position: relative;
 }
 
-.clickToGainBanner1Abs {
+.startupBanner1Abs {
   position: absolute;
   top: 20%;
   left: 5%;
 }
 
-.clickToGainBannerText {
+.startupBannerText {
   color: #2f2f2f;
 }
 
-.clickToGainBannerText p {
+.startupBannerText p {
   font-weight: 600;
 }
 
-.clickToGainBannerBtn {
+.startupBannerBtn {
   border: 2px solid #2f2f2f;
   background-color: #2f2f2f;
   color: #fff;
   transition: 0.3s ease-in-out;
 }
-.clickToGainBannerBtn:hover {
+.startupBannerBtn:hover {
   background-color: transparent;
   color: #2f2f2f;
   border: 2px solid #2f2f2f;
@@ -443,7 +443,7 @@ body{
   background-color: #ff6700;
   border-radius: 10px;
 }
-.click_to_gain_logo {
+.startup_logo {
   width: 140px !important;
 }
 .footer{
@@ -823,7 +823,7 @@ footer.footer::before {
 
 @media only screen and (max-width: 768px) {
   
-  .clickToGainBtn {
+  .startupBtn {
     width: 100%;
   }
   .servicesBox1 .servicesBoxImg img {
