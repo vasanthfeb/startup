@@ -17,7 +17,7 @@
   
   }
   .iicon{
-    color: #1974D2 !important;
+    color: #38acec !important;
   }
   .navbar{
     background-color: #131313   !important;
@@ -25,7 +25,7 @@
   }
  .jost{
     font-family: "Jost", sans-serif !important;
-    color: #1974D2;
+    color: #38acec;
    }
    .smallHeading{
     color: #ffffff;
@@ -56,7 +56,7 @@
       border-bottom: unset !important;
     }
     .nav-link.active {
-      color: #1974D2 !important;
+      color: #38acec !important;
       border-bottom: unset !important;
     }
     .nav_right .nav_link_container {
@@ -135,7 +135,7 @@
     content: "";
     position: absolute;
     top: 10px;
-    border: 2px solid #1974D2;
+    border: 2px solid #38acec;
     right: -4px;
     width: 10px;
     height: 10px;
@@ -148,12 +148,12 @@
     content: "";
     position: absolute;
     top: 10px;
-    border: 2px solid #1974D2;
+    border: 2px solid #38acec;
     right: -4px;
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #1974D2;
+    background-color: #38acec;
   }
   .navbar .contactBtn {
     font-weight: 600;
@@ -184,7 +184,7 @@
   }
 
 .svg-inline--fa.fa-xmark.fs-1{
-  color:  #1974D2 !important;
+  color:  #38acec !important;
 }
 
  p, li{
@@ -295,18 +295,18 @@ body{
 }
 
 .social-icons a:hover {
-  color: #1974D2;
+  color: #38acec;
 }
 .fa-github:hover{
-  color: #1974D2
+  color: #38acec
  !important;
 }
 .fa-linkedin-in:hover{
-  color: #1974D2
+  color: #38acec
  !important;
 }
 .fa-instagram:hover{
-  color: #1974D2
+  color: #38acec
  !important;
 }
 .name {
@@ -319,7 +319,7 @@ body{
 }
 
 .team-card:hover + .name {
-  color: #1974D2;
+  color: #38acec;
 }
 
 
@@ -429,7 +429,7 @@ body{
   width: 50px;
   height: 5px;
   z-index: 1;
-  background-color: #1974D2;
+  background-color: #38acec;
   border-radius: 10px;
 }
 .footerDiv-title::after {
@@ -440,7 +440,7 @@ body{
   width: 15px;
   height: 5px;
   z-index: 1;
-  background-color: #1974D2;
+  background-color: #38acec;
   border-radius: 10px;
 }
 .startup_logo {
@@ -454,10 +454,10 @@ a{
   color: #dcdcdc;
 }
 li{
-  color: #1974D2;
+  color: #38acec;
 }
 li a:hover{
-  color: #1974D2;
+  color: #38acec;
 }
 
 
@@ -494,7 +494,7 @@ footer.footer::before {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  border: 2px solid #1974D2;
+  border: 2px solid #38acec;
   transition: all 200ms ease-out;
   position: fixed;
   pointer-events: none;
@@ -509,7 +509,7 @@ footer.footer::before {
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background-color: #1974D2;
+  background-color: #38acec;
   opacity: 0.3;
   position: fixed;
   transform: translate(-50%, -50%);
@@ -635,7 +635,7 @@ footer.footer::before {
   justify-content: center;
   align-items: center;
   height: 200px;
-  border: 2px solid #1974D2;
+  border: 2px solid #38acec;
   background-color: #131313; /* Default background color */
   position: relative;
   overflow: hidden; /* To make sure the image stays within the box */
@@ -908,7 +908,7 @@ footer.footer::before {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #1974D2;
+  background-color: #38acec;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transform-origin: right bottom;
@@ -925,7 +925,7 @@ footer.footer::before {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #1974D2;
+  background-color: #38acec;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transform-origin: left bottom;
@@ -942,7 +942,7 @@ footer.footer::before {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #1974D2;
+  background-color: #38acec;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transform-origin: right top;
@@ -959,7 +959,7 @@ footer.footer::before {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #1974D2;
+  background-color: #38acec;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transform-origin: left top;
@@ -1009,7 +1009,7 @@ footer.footer::before {
   width: 50px;
   height: 5px;
   z-index: -1;
-  background-color: #1974D2;
+  background-color: #38acec;
   border-radius: 10px;
 }
 
@@ -1024,7 +1024,7 @@ footer.footer::before {
   width: 15px;
   height: 5px;
   z-index: -1;
-  background-color: #1974D2;
+  background-color: #38acec;
   border-radius: 10px;
 }
 
@@ -1075,10 +1075,10 @@ footer.footer::before {
 }
 .single-service-part-2-icon {
   margin-right: 10px;
-  color: #1974D2;
+  color: #38acec;
 }
 .bigHeading{
-  color: #1974D2;
+  color: #38acec;
 }
 
 
@@ -1102,54 +1102,54 @@ footer.footer::before {
   /* height: 300px; */
   justify-content: center;
   /* width: 150px; */
-  border: 2px solid  #1974D2;
+  border: 2px solid  #38acec;
   padding: 20px;
 }
 /* carousel end */
 
 p::selection{
-  background-color: #1974D2 !important;
+  background-color: #38acec !important;
   color: #ffffff !important;
 }
 h1::selection{
-  background-color: #1974D2 !important;
+  background-color: #38acec !important;
   color: #ffffff !important;
 }
 span::selection{
-   background-color: #1974D2 !important;
+   background-color: #38acec !important;
   color: #ffffff !important;
 
 }
 h2::selection{
-   background-color: #1974D2 !important;
+   background-color: #38acec !important;
   color: #ffffff !important;
 }
 h5::selection{
-   background-color: #1974D2 !important;
+   background-color: #38acec !important;
   color: #ffffff !important;
 }
 div::selection{
-   background-color: #1974D2 !important;
+   background-color: #38acec !important;
   color: #ffffff !important;
 }
 h6::selection{
-   background-color: #1974D2 !important;
+   background-color: #38acec !important;
   color: #ffffff !important;
 }
 h4::selection{
-   background-color: #1974D2 !important;
+   background-color: #38acec !important;
   color: #ffffff !important;
 }
 a::selection{
-   background-color: #1974D2 !important;
+   background-color: #38acec !important;
   color: #ffffff !important;
 }
 li::selection{
-   background-color: #1974D2 !important;
+   background-color: #38acec !important;
   color: #ffffff !important;
 }
 h3::selection{
-   background-color: #1974D2 !important;
+   background-color: #38acec !important;
   color: #ffffff !important;
 }
 /* our work start */
@@ -1182,7 +1182,7 @@ h3::selection{
         width: 100%;
         height: 100%;
         background: rgba(0, 0, 0, 0.6);
-        color: #1974D2;
+        color: #38acec;
         opacity: 0;
         transition: opacity 0.4s ease;
         display: flex;
@@ -1197,7 +1197,7 @@ h3::selection{
       .image-card:hover .image-overlay {
         opacity: 9;
         background-color: #131313;
-        border: 2px solid #1974D2;
+        border: 2px solid #38acec;
         
       }
 
@@ -1263,18 +1263,18 @@ h3::selection{
       width: 50px;
       height: 50px;
       border-radius: 50%;
-      background-color: #1974D2;
+      background-color: #38acec;
       color: white;
       border: none;
       align-items: center;
       justify-content: center;
-      box-shadow: #1974D2;
+      box-shadow: #38acec;
       z-index: 1000;
       transition: opacity 0.4s ease, background-color 0.3s ease;
       opacity: 0;
       pointer-events: none;
       display: flex;
-      border: 2px solid #1974D2 !important;
+      border: 2px solid #38acec !important;
     }
 
     #goTopBtn.show {
@@ -1283,7 +1283,7 @@ h3::selection{
     }
 
     #goTopBtn:hover {
-      background-color: #1974D2;
+      background-color: #38acec;
     }
 
     #goTopBtn i {
@@ -1310,7 +1310,7 @@ h3::selection{
   color: #dedede !important;
 }
 .contact-form {
-  background-color: #1974D2;
+  background-color: #38acec;
   position: relative;
 }
 
@@ -1339,7 +1339,7 @@ h3::selection{
   position: absolute;
   width: 26px;
   height: 26px;
-  background-color: #1974D2;
+  background-color: #38acec;
   transform: rotate(45deg);
   top: 50px;
   left: -13px;
@@ -1446,7 +1446,7 @@ textarea.input {
   opacity: 0;
   transition: 0.3s;
   height: 5px;
-  background-color: #1974D2;
+  background-color: #38acec;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -1537,7 +1537,7 @@ textarea.input {
   position: absolute;
   width: 110px;
   height: 100px;
-  border: 22px solid #1974D2;
+  border: 22px solid #38acec;
   border-radius: 50%;
   bottom: -47px;
   right: 50px;
@@ -1641,7 +1641,7 @@ textarea.input {
 
 /* contact us */
 .iii{
-    border: 3px solid #1974D2;
+    border: 3px solid #38acec;
     padding: 12px;
     border-radius: 50%;
     font-size: 16px;
@@ -1650,13 +1650,13 @@ textarea.input {
 
     }
   .ogange{
-    color: #1974D2 !important;
+    color: #38acec !important;
     font-size: 25px;
     font-weight: 600;
   }
  h6:hover .iii{
    color: rgb(0, 0, 0) !important;
-  background-color: #1974D2;
+  background-color: #38acec;
   transition: ease 0.5s;
  }
 .nav-link{
@@ -1667,7 +1667,7 @@ textarea.input {
 }
 .lets{
    font-family: "Lexend", sans-serif !important;
-   color: #1974D2;
+   color: #38acec;
 }
 .reach{
    font-family: "Lexend", sans-serif !important;
@@ -1677,7 +1677,7 @@ textarea.input {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  color: #1974D2;
+  color: #38acec;
 }
 .text-justify{
   text-align: justify;
@@ -1697,7 +1697,7 @@ textarea.input {
   color: #ffffff !important;
 }
 .breadcrumb_active{
-  color: #1974D2;
+  color: #38acec;
 }
 .breadcrumb-item a:hover{
   color: #dcdcdc;
@@ -1711,7 +1711,7 @@ textarea.input {
  left: -100px; /* Start off-screen */
   width: 100px;
   height: 100%;
-  background-color: #1974D27e;
+  background-color: #38acec7e;
   clip-path: path("M0,10 C90,30 60,60 0,100 L0,10 Z");
   animation: slideInLeft 1s ease-out forwards;
 }
@@ -1725,10 +1725,10 @@ textarea.input {
   
   width: 100px;
   height: 100%;
-  background-color: #1974D27e;
+  background-color: #38acec7e;
   clip-path: path("M100,0 C10,90 5,110 100,200 L100,0 Z");
    animation: slideInRight 1s ease-out forwards;
-  animation-delay: 0.2s; /* Slight delay for stagge#1974D2
+  animation-delay: 0.2s; /* Slight delay for stagge#38acec
  effect */
 }
 @keyframes slideInLeft {
@@ -1826,7 +1826,7 @@ textarea.input {
 }
 
 .aboutUsIconBox {
-  background-color: #1974D2;
+  background-color: #38acec;
 }
 .aboutUsIconBox img {
   width: 75px;
@@ -1884,7 +1884,7 @@ textarea.input {
   top: -5px;
   left: -10px;
   border-radius: 50%;
-  background: #1974D2;
+  background: #38acec;
   z-index: -1;
   opacity: 0.7;
 }
@@ -1895,7 +1895,7 @@ textarea.input {
   height: 18px;
 }
 .aboutUsInformationProgressBar {
-  background-color: #1974D2 !important;
+  background-color: #38acec !important;
 }
 
 .timeline-with-icons {
@@ -1918,8 +1918,8 @@ textarea.input {
   position: absolute;
   left: -48px;
   background-color: transparent;
-  border: 2px solid #1974D2;
-  color: #1974D2 !important;
+  border: 2px solid #38acec;
+  color: #38acec !important;
   border-radius: 50%;
   height: 31px;
   width: 31px;
@@ -1966,4 +1966,4 @@ textarea.input {
 
 
 
-/* ===========  Old orange color : #1974D2 *==========/
+/* ===========  Old orange color : #ff67#00# *==========/
