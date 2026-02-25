@@ -5,12 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>startup</title>
-    <!-- AOS CSS -->
-<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
-
-<!-- Bootstrap Icons CDN -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
 <link
 rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -60,6 +55,8 @@ crossorigin="anonymous"
 referrerpolicy="no-referrer"
 /> -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+     
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <link rel="stylesheet" href="./style.css">
 </head>
@@ -69,10 +66,10 @@ referrerpolicy="no-referrer"
   <div class="cursor2"></div>
 <!-- header start -->
 
-    <header class="header_container bg-light " id="header">
+    <header class=" header_container   " id="header">
         
         <!-- navbar -->
-        <nav class="navbar fixed-top navbar-expand-lg py-3 bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg py-3 ">
           <div class="container mt-0">
             <span class="logo_container">
               <div class="logo_back"></div>
@@ -104,7 +101,7 @@ referrerpolicy="no-referrer"
                 /></a>
                 <a
                   href="javascript:void(0) "
-                  class="text-reset p-0"
+                  class="text-reset p-0 iicon"
                   data-bs-dismiss="offcanvas"
                   aria-label="close"
                 >
@@ -115,23 +112,22 @@ referrerpolicy="no-referrer"
                 <div class="offcanvas-body p-lg-0 nav_link_container">
                   <ul class="navbar-nav ms-auto my-auto">
                     <li class="nav-item">
-                      <a class="nav-link font_2" aria-current="page" href="./index.html"
+                      <a class="nav-link  font_2" aria-current="page" href="./index.html"
                         >Home</a
                       >
                     </li>
                     <li class="nav-item ms-xl-2">
-                      <a class="nav-link font_2 " href="./about.html" >About Us</a>
+                      <a class="nav-link active font_2" href="./about-us.html" >About Us</a>
                     </li>
                     <li class="nav-item ms-xl-2">
                       <a class="nav-link font_2" href="./services.html">Services</a>
                     </li>
                     <li class="nav-item ms-xl-2">
-                      <a class="nav-link font_2 active" href="./our_works.html">Our Works</a>
+                      <a class="nav-link font_2" href="./our-works.html">Our Works</a>
                     </li>
   
-                    <li class="nav-item ms-xl-2 ">
-                      <a class="nav-link font_2 " href="./contact.html">Contact Us</a
-                      >
+                    <li class="nav-item ms-xl-2">
+                      <a class="nav-link font_2 " href="./contact-us.html">Contact Us</a>
                     </li>
                   </ul>
                 </div>
@@ -142,166 +138,187 @@ referrerpolicy="no-referrer"
         <!-- navbar end -->
     </header>
       <!-- header end -->
-  
 
 
 
-
-
-
-<main>
-
-
-
-
-
-
-   <div class="container-fluid breadcrumb_bg ">
+ <div class="container-fluid breadcrumb_bg ">
     <div class="container p-5  justify-content-center">
-      <h2 class="orange_title mt-2">Our Works</h2>
+      <h2 class="orange_title mt-2">About Us</h2>
       <ul class="breadcrumb">
         <li class="breadcrumb-item"> <a href="./index.html">Home</a></li>
-        <li class="breadcrumb-item breadcrumb_active">Our Works </li>
+        <li class="breadcrumb-item breadcrumb_active">About Us</li>
       </ul>
     </div>
    </div>
 
-  <div class="container mt-4 mt-sm-4" id="tran" data-aos="fade-up">
-    
-    <div class="row row-cols-1 row-cols-md-3">
-  <div class="col mt-3 mt-sm-4">
-    <div class="image-card">
-      <img src="./img/screen_shot/artsofjoy.png" alt="Sample Image">
-      <div class="image-overlay">
-        <div class="overlay-content">
-          <h5 class="site_title lexend">Arts of Joy</h5>
-          <a href="https://artsofjoy.in/" target="_blank">View Website <i class="mx-1 bi bi-arrow-up-right-circle"></i></a> 
+<!-- first section -->
+    <section class="mt-5 mb-5 margin-top" id="about">
+      <div class="container mt-5 mb-5">
+        <!-- <h2 class="aboutUsTitle text-center my-4">About us</h2> -->
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 me-0 me-xl-5 order-1">
+            <span class="aboutUsInformationSmallText smallHeading text-light"
+              >Welcome to Wexor</span
+            >
+            <h2 class=" bigHeading mt-2 mb-4 jost">
+              How We Start Our Journey
+            </h2>
+            <!-- <p class="aboutUsInformationPara text-light my-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+              deleniti aliquam optio nemo quaerat repellendus molestias porro
+              iste facilis voluptatem!
+            </p> -->
+            <!-- Section: Timeline -->
+            <div class="timeline mt-4 mx-3">
+              <ul class="timeline-with-icons">
+                <li class="timeline-item mb-5">
+                  <span class="timeline-icon">
+                    <i class="fa-solid fa-rocket"></i>
+                  </span>
+
+                  <h5 class="fw-bold">Our First Client</h5>
+                  <p class="text-light mb-2 fw-bold"> June 2025</p>
+                  <p class="text-light">
+                    Our journey started with a single freelancing project completed with passion, finished with perfection, and celebrated by a satisfied client.
+                  </p>
+                </li>
+
+                <li class="timeline-item mb-5">
+                  <span class="timeline-icon">
+                    <i class="fa-solid fa-handshake"></i>
+                  </span>
+                  <h5 class="fw-bold">The Start of Something Big </h5>
+                  <p class="text-light mb-2 fw-bold"> August 2025</p>
+                  <p class="text-light">
+                   After completing 4 projects successfully, our journey evolved—we stepped up from freelancing and launched our own startup under a sole proprietorship
+                  </p>
+                </li>
+
+                <li class="timeline-item mb-5">
+                  <span class="timeline-icon">
+                    <i class="fa-solid fa-people-group"></i>
+                  </span>
+                  <h5 class="fw-bold">Our Team Exceeds 4 Peoples</h5>
+                  <p class="text-light mb-2 fw-bold"> August 2025</p>
+                  <p class="text-light">
+                    After launching our startup as a sole proprietorship, our team grew beyond 5 members—bringing together talented web developers and creative graphic designers.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <!-- Section: Timeline -->
+          </div>
+          <div class="col-lg-6 order-2 mt-5 mt-lg-0">
+            <div class="aboutUsImageBox">
+              <div class="row">
+                <div class="col-md-7">
+                  <figure class="aboutUsImageBoxLeft shine h-100">
+                    <img
+                      src="./img/about_page_img/team.webp"
+                      alt="startup_aboutus_img_1" class="slide-image d-sm-block d-none"/>
+                      <img src="./img/about_page_img/team.webp" alt="" class="d-sm-none d-block">
+                  </figure>
+                </div>
+                <div class="col-md-5">
+                  <figure class="aboutUsImageBoxRight shine">
+                    <img
+                      src="./img/about_page_img/click_to_gain_aboutus_img_2.jpg"
+                      alt="startup_aboutus_img_2"
+                      class="d-none d-md-block"
+                    />
+                  </figure>
+                  <div class="aboutUsIconBox px-5 py-5">
+                    <img
+                      src="./img/about_page_img/click_to_gain_aboutus_coding_icon.png"
+                      alt="startup_boutus_coding_icon"
+                    />
+                    <p class="m-0 mt-2 aboutUsIconBoxText text-light">
+                      Web Development
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+<!-- first section -->
+<style>
+  
+</style>
+  <!-- Team Section start -->
+   <!-- Team Section start -->
+   <div class="container team-section">
+    <h1 class="text-center mb-5 jost">Our Team</h1>
+    <div class="row justify-content-center">
+      <!-- Team Member 1 -->
+      <div class="col-12 col-md-3 team-member">
+        <div class="team-card">
+          <img src="./img/our_team_img/munish.jpg" alt="Team Member 1">
+          <div class="social-icons">
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="fab fa-whatsapp"></a>
+            <!-- <a href="#" class="fab fa-github"></a> -->
+            <a href="#" class="fab fa-linkedin-in"></a>
+          </div>
+        </div>
+        <div class="name lexend">Munish</div>
+        <h6 class="sub-title text-center">SEO Analyst</h6>
+      </div>
+      <!-- Team Member 2 -->
+      <div class="col-12 col-md-3 team-member">
+        <div class="team-card">
+          <img src="./img/our_team_img/vijay.jpg" alt="Team Member 2">
+          <div class="social-icons">
+            <a href="#" class="fab fa-instagram"></a>
+            <i class="fa-brands fa-whatsapp"></i>
+            <!-- <a href="#" class="fab fa-github"></a> -->
+            <a href="#" class="fab fa-linkedin-in"></a>
+          </div>
+        </div>
+        <div class="name  lexend">Bevin</div>
+        <h6 class="sub-title text-center">Digital Marketing Director </h6>
+      </div>
+      <!-- Team Member 3 -->
+      <div class="col-12 col-md-3 team-member">
+        <div class="team-card">
+          <img src="./img/our_team_img/arunagiri.jpg" alt="Team Member 3">
+          <div class="social-icons">
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-github"></a>
+            <a href="#" class="fab fa-linkedin-in"></a>
+          </div>
+        </div>
+        <div class="name lexend">Arunagiri</div>
+        <h6 class="sub-title text-center">Client Engagement Manager</h6>
+      </div>
+      <!-- Team Member 4 -->
+      <div class="col-12 col-md-3 team-member">
+        <div class="team-card">
+          <img src="./img/our_team_img/vasanth.png" alt="Team Member 4">
+          <div class="social-icons">
+            
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-github"></a>
+            <a href="#" class="fab fa-linkedin-in"></a>
+          </div>
+        </div>
+        <div class="name lexend">Vasanth</div>
+        <h6 class="sub-title text-center">Web Engineer</h6>
       </div>
     </div>
   </div>
+  
 
+    <!-- Team Section end -->
 
-  <div class="col mt-3 mt-sm-4">
-    <div class="image-card">
-      <img src="./img/screen_shot/technocrate.png" alt="Sample Image">
-      <div class="image-overlay">
-        <div class="overlay-content">
-          <h5 class="site_title lexend">Technocrate</h5>
-          <a href="https://vasanthfeb.github.io/technocrate/" target="_blank">View Website <i class="mx-1 bi bi-arrow-up-right-circle"></i></a> 
-        </div>
-      </div>
-    </div>
-  </div>
+    <!-- Team Section end -->
 
-   <div class="col mt-3 mt-sm-4">
-    <div class="image-card">
-      <img src="./img/screen_shot/bharanicabs.jpg" alt="Sample Image">
-      <div class="image-overlay">
-        <div class="overlay-content">
-          <h5 class="site_title lexend">Bharani Cabs</h5>
-          <a href="https://bharanicabs.com/" target="_blank">View Website <i class="mx-1 bi bi-arrow-up-right-circle"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-   <div class="col mt-3 mt-sm-4">
-    <div class="image-card">
-      <img src="./img/screen_shot/katariyaglobal.jpg" alt="Sample Image">
-      <div class="image-overlay">
-        <div class="overlay-content">
-          <h5 class="site_title lexend">Katariya Global</h5>
-          <a href="https://katariyaglobal.com/" target="_blank">View Website <i class="mx-1 bi bi-arrow-up-right-circle"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="col mt-3 mt-sm-4">
-    <div class="image-card">
-      <img src="./img/screen_shot/aaricexports.png" alt="Sample Image">
-      <div class="image-overlay">
-        <div class="overlay-content">
-          <h5 class="site_title lexend">Aaric Exports</h5>
-          <a href="https://aaricexports.com/" target="_blank">View Website <i class="mx-1 bi bi-arrow-up-right-circle"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-   <div class="col mt-3 mt-sm-4">
-    <div class="image-card">
-      <img src="./img/screen_shot/velanactingdrivers.png" alt="Sample Image">
-      <div class="image-overlay">
-        <div class="overlay-content">
-          <h5 class="site_title lexend">Velan Acting Drivers</h5>
-          <a href="https://velanactingdrivers.com/" target="_blank">View Website <i class="mx-1 bi bi-arrow-up-right-circle"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-  <div class="col mt-3 mt-sm-4">
-    <div class="image-card">
-      <img src="./img/screen_shot/planbuddyglobal.png" alt="Sample Image">
-      <div class="image-overlay">
-        <div class="overlay-content">
-          <h5 class="site_title lexend">Planbuddy Global</h5>
-          <a href="https://planbuddyglobal.com/" target="_blank">View Website <i class="mx-1 bi bi-arrow-up-right-circle"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="col mt-3 mt-sm-4">
-    <div class="image-card">
-      <img src="./img/screen_shot/hlvfc.png" alt="Sample Image">
-      <div class="image-overlay">
-        <div class="overlay-content">
-          <h5 class="site_title lexend">HLVFC</h5>
-          <a href="https://www.hlvfc.com/" target="_blank">View Website <i class="mx-1 bi bi-arrow-up-right-circle"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-   <div class="col mt-3 mt-sm-4">
-    <div class="image-card">
-      <img src="./img/screen_shot/bmgassociate.png" alt="Sample Image">
-      <div class="image-overlay">
-        <div class="overlay-content">
-          <h5 class="site_title lexend">BMG Associate</h5>
-          <a href="https://bmgassociate.com/" target="_blank">View Website <i class="mx-1 bi bi-arrow-up-right-circle"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  </div>
-</div>
-
-
-
-</main>
-
-<button id="goTopBtn" title="Go to top">
-  <!-- <i class="bi bi-arrow-up"></i> -->
-  <i class="fa-solid fa-arrow-up"></i>
-</button>
 
 
 <!-- footer -->
-<footer  class=" footer pt-3 margin-top mt-5">
+<footer  class=" footer pt-4 margin-top mt-5 pb-3">
   <div class="container mt-4">
     <div class="row">
 
@@ -315,8 +332,7 @@ referrerpolicy="no-referrer"
             />
           </a>
           <p class="mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-            nulla nisi architecto in cumque libero!
+            Wexor is a creative digital agency delivering smart web solutions and result-driven marketing to help businesses grow online.
           </p>
         </div>
       </div>
@@ -328,11 +344,11 @@ referrerpolicy="no-referrer"
         <div class="footerDiv">
           <h4 class="footerDiv-title">Link Tree</h4>
           <ul class="ps-3 mt-4">
-            <li><a href="./about.html">About Us</a></li>
-            <li><a href="./contact.html">Contact Us</a></li>
-            <li><a href="./Privacy_Policy.html">Privacy Policy</a></li>
+            <li><a href="./about-us.html">About Us</a></li>
+            <li><a href="./contact-us.html">Contact Us</a></li>
+            <li><a href="./privacy-policy.html">Privacy Policy</a></li>
             <li>
-              <a href="./terms_conditions.html">Terms & Conditions</a>
+              <a href="./terms-conditions.html">Terms & Conditions</a>
             </li>
           </ul>
         </div>
@@ -354,21 +370,30 @@ referrerpolicy="no-referrer"
       </div>
     </div>
 
+<div class="col-lg-3 justify-content-lg-center d-flex">
+  <div class="footerDiv">
+    <h4 class="footerDiv-title">Buzz Links</h4>
+    <div class="d-flex fs-4 mt-4 gap-3 social-iconss">
+      
+      <a href="https://www.instagram.com/wexor.in/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
 
-    <div class="col-lg-3 justify-content-lg-center  d-flex">
-      <div class="footerDiv">
-        <h4 class="footerDiv-title">Buzz Links</h4>
-        <div class="d-flex fs-4 mt-4 gap-3 social-iconss">
-          <a href="#" class="fab fa-instagram"></a>
-          <a href="#" class="fab fa-github"></a>
-          <a href="#" class="fab fa-linkedin-in"></a>
-        </div>
-      </div>
+      <a href="https://www.instagram.com/wexor.in/" target="_blank">
+        <i class="fab fa-facebook"></i>
+      </a>
+
+      <a href="https://www.instagram.com/wexor.in/" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+
     </div>
+  </div>
+</div>
 
-    <div class="copyright mt-3 text-center py-3">
+    <div class="copyright mt-4 text-center py-3">
       <div class="fs-6 lexend">
-        Copyright © 2025 Wexor. All Rights Reserved.
+        Copyright © 2026 Wexor. All Rights Reserved.
       </div>
     </div>
 
@@ -380,13 +405,22 @@ referrerpolicy="no-referrer"
 
 
 
+
+
+     
+      
+<button id="goTopBtn" title="Go to top">
+  <!-- <i class="bi bi-arrow-up"></i> -->
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+
+
 <!-- whatsapp -->
   <a href="https://wa.me/919876543210" target="_blank" id="whatsapp-sticky">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
 </a>
 <!-- whatsapp -->
-
-  
 
 
 
@@ -394,14 +428,13 @@ referrerpolicy="no-referrer"
 
 
 <!-- Bootstrap JS -->
- <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- EmailJS SDK -->
 <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
 <script src="contact.js"></script>
-<script src="./go_to_top.js"></script>
+
 
 
 
@@ -450,6 +483,7 @@ referrerpolicy="no-referrer"
     
     
     <script src="./script.js"></script>
+    <script src="./go_to_top.js"></script>
     <script>
   //     const observer = new IntersectionObserver((entries, observer) => {
   //   entries.forEach(entry => {
