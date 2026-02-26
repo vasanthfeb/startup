@@ -11,11 +11,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $subject = "New Contact Form Submission";
 
     $body = "
-    You received a new message:
-
     Name: $name
     Email: $email
     Phone: $phone
+
     Message:
     $message
     ";
@@ -23,13 +22,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $headers = "From: $email";
 
     if(mail($to, $subject, $body, $headers)){
-        echo "<script>alert('Message Sent Successfully'); window.location.href='index.html';</script>";
+        echo "Message Sent Successfully!";
     } else {
-        echo "<script>alert('Message Failed to Send'); window.location.href='index.html';</script>";
+        echo "Message Failed!";
     }
 
-} else {
-    header("Location: index.html");
-    exit();
 }
 ?>

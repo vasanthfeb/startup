@@ -252,18 +252,18 @@ body{
 }
 
 .mission .vmv-icon {
-  background: linear-gradient(135deg, #ff6b6b, #ee5a52);
-  color: white;
+  background: linear-gradient(135deg, #202020, #202020);
+  color: #38acec;
 }
 
 .vision .vmv-icon {
-  background: linear-gradient(135deg, #4ecdc4, #44a08d);
-  color: white;
+ background: linear-gradient(135deg, #202020, #202020);
+  color: #38acec;
 }
 
 .values .vmv-icon {
-  background: linear-gradient(135deg, #a8e6cf, #88d8a3);
-  color: #2d5a27;
+ background: linear-gradient(135deg, #202020, #202020);
+  color: #38acec;
 }
 
 .vmv-title {
@@ -384,7 +384,7 @@ body{
 
 .team-member {
   text-align: center;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 /* our team end */
 
@@ -525,7 +525,7 @@ li a:hover{
 
 /* map */
   footer.footer {
-  background: url('https://static.vecteezy.com/system/resources/thumbnails/021/353/221/small_2x/world-map-silhouette-global-mapping-in-the-digital-age-illustration-png.png') no-repeat center center;
+  background: url('./icons/map-footer.png') no-repeat center center;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -1373,7 +1373,7 @@ h3::selection{
 
 .circle {
   border-radius: 50%;
-  background: linear-gradient(135deg, transparent 20%, #c85000);
+  background: linear-gradient(135deg, transparent 20%, #006ec8);
   position: absolute;
 }
 
@@ -2057,3 +2057,4 @@ textarea.input {
 }
 
 
+/* ================  banner gradietn effecct end */

@@ -138,7 +138,7 @@ rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/cs
     </div>
    </div>
   <!-- <h1 class="text-center mt-5 orange_title">Contact Us</h1> -->
-   <div class="container d-flex justify-content-center mt-4 mt-sm-5 mb-3">
+   <div class="container d-flex justify-content-center mt-4 mt-lg-5 mb-3">
       
       <img src="img/shape.png" class="square" alt="" />
       <div class="form m-2 ">
@@ -164,7 +164,7 @@ rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/cs
           <span class="circle one"></span>
           <span class="circle two"></span>
 
-          <form action="contact.php" method="POST" autocomplete="off">
+          <form  method="POST" autocomplete="off">
             <h3 class="reach" style="font-weight: 600;">Reach us</h3>
             <div class="input-container">
               <input type="text" name="name" class="input" />
@@ -196,8 +196,8 @@ rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/cs
 </main>
 
 <!-- whatsapp -->
-  <a href="https://wa.me/919943355529" target="_blank" id="whatsapp-sticky">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+  <a href="https://wa.link/hou2c0" target="_blank" id="whatsapp-sticky">
+  <img src="./icons/WhatsApp.svg" alt="WhatsApp" />
 </a>
 <!-- whatsapp -->
 
@@ -306,7 +306,26 @@ rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/cs
 
 
 
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault(); // prevent page reload
 
+    let formData = new FormData(this);
+
+    fetch("contact.php", {
+        method: "POST",
+        body: formData
+    })
+    .then(response => response.text())
+    .then(data => {
+        alert(data);
+        document.getElementById("contactForm").reset();
+    })
+    .catch(error => {
+        alert("Something went wrong!");
+    });
+});
+</script>
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
