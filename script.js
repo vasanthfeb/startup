@@ -134,3 +134,39 @@ $(document).ready(function() {
 // our team end
 
  
+function openImage(img){
+
+document.getElementById("imagePopup").style.display="flex";
+document.getElementById("popupImg").src = img.src;
+
+}
+
+function closeImage(){
+
+document.getElementById("imagePopup").style.display="none";
+
+}
+
+function showPortfolio(img){
+
+document.getElementById("portfolioViewer").style.display="flex";
+document.getElementById("portfolioPreview").src = img.src;
+
+}
+
+function hidePortfolio(){
+
+document.getElementById("portfolioViewer").style.display="none";
+
+}function openCardViewer(img){
+
+document.getElementById("cardViewer").style.display="flex";
+document.getElementById("cardPreview").src = img.src;
+
+}
+
+function closeCardViewer(){
+
+document.getElementById("cardViewer").style.display="none";
+
+}
