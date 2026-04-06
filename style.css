@@ -634,7 +634,7 @@ li a:hover{
 
 
 .navbar-toggler-icon {
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ff6700' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%231A69B4' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 
@@ -807,7 +807,8 @@ footer.footer::before {
   justify-content: center;
   align-items: center;
   height: 200px;
-  border: 2px solid #1A69B4;
+  /* border: 2px solid #1A69B4; */
+  border: 3.9px solid transparent; border-image: linear-gradient(135deg, #1a6ab400, #1A69B4) 1;
   background-color: #131313; /* Default background color */
   position: relative;
   overflow: hidden; /* To make sure the image stays within the box */
@@ -1369,8 +1370,9 @@ h3::selection{
       .image-card:hover .image-overlay {
         opacity: 9;
         background-color: #131313;
-        border: 2px solid #1A69B4;
-        
+        /* border: 2px solid #1A69B4; */
+        border: 3px solid transparent; border-image: linear-gradient(135deg, #1a6ab400, #1A69B4) 1;
+         border-radius: 7px;
       }
 
       .overlay-content {
