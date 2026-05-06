@@ -1436,7 +1436,7 @@ h3::selection{
   
     #goTopBtn {
       position: fixed;
-      bottom: 80px;
+      bottom: 50px;
       right: 30px;
       width: 50px;
       height: 50px;
@@ -1961,7 +1961,7 @@ textarea.input {
 /* wHATSAPP */
 #whatsapp-sticky {
     position: fixed;
-    bottom: 140px; /* distance from bottom */
+    bottom: 110px; /* distance from bottom */
     right: 30px;  /* distance from right */
     z-index: 9999; /* stay above all elements */
   }
