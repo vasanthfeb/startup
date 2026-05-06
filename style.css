@@ -293,7 +293,16 @@ body{
 
 
  /* our team start */
-
+ 
+.social-icons{
+  z-index: 10 !important;
+}
+.social-icons a{
+  pointer-events: auto !important;
+}
+.team-card img{
+  pointer-events: none !important;
+}
  .team-section {
   opacity: 0;
   transform: translateY(150px); /* Start position off-screen */
@@ -322,7 +331,20 @@ body{
   width: 100%;
   border-radius: 15px;
   transition: transform 0.3s ease, filter 0.3s ease;
+  display: block;
 }
+.social-icons{
+  z-index: 99;
+}
+
+.team-card:hover .social-icons{
+  opacity: 1;
+  pointer-events: auto;
+}
+.team-card{
+  position: relative;
+}
+
 
 /* Hover effect for image (blur effect) */
 .team-card:hover img {
@@ -352,7 +374,7 @@ body{
 }
 
 .social-icons a {
-  margin: 0 10px;
+  margin: 0px !important;
   color: #fff;
   font-size: 20px;
   text-decoration: none;
@@ -999,6 +1021,9 @@ footer.footer::before {
 
 
 @media only screen and (max-width: 768px) {
+  .header_container{
+    height: 93px !important;
+  }
   
   .startupBtn {
     width: 100%;
@@ -1694,11 +1719,14 @@ textarea.input {
   margin-top: 0.5rem;
 }
 
+.social-icons a{
+  font-size: 28px; /* icon size perusu */
+}
 .social-icons a {
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  background: linear-gradient(45deg, #1abc9c, #149279);
+  /* background: linear-gradient(45deg, #1abc9c, #149279); */
   color: #fff;
   text-align: center;
   line-height: 35px;
@@ -2292,7 +2320,7 @@ transition:0.3s;
 }
 
 .social-img:hover{
-transform:scale(1.05);
+/* transform:scale(1.05); */
 }
 
 /* popup */
@@ -2332,10 +2360,26 @@ object-fit:cover;
 cursor:pointer;
 border-radius:10px;
 transition:0.3s;
+
 }
 
 .social-img:hover{
-transform:scale(1.05);
+opacity: 9;
+  border: 2px solid #1A69B4;
+  border: 3px solid transparent;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-image: linear-gradient(135deg, #1a6ab400, #1A69B4) 1;
+  border-radius: 7px;
+  padding: 8px;
 }@media(max-width:768px){
 
 .social-img{
@@ -2449,3 +2493,6 @@ color:white;
 cursor:pointer;
 }
 /* our projects start */
+
+/* wexor bg */
+/* wexor bg */
