@@ -1188,7 +1188,7 @@ footer.footer::before {
 .servicesBox3:hover p,
 .servicesBox4:hover h3,
 .servicesBox4:hover p {
-  color: #000000;
+  color: #ffffff;
 }
 
 .servicesBox1 h3,
@@ -1226,7 +1226,7 @@ footer.footer::before {
   width: 15px;
   height: 5px;
   z-index: -1;
-  background-color: #1A69B4;
+  background-color: #1A69B4 ;
   border-radius: 10px;
 }
 
@@ -1238,7 +1238,7 @@ footer.footer::before {
 .servicesBox3:hover h3::after,
 .servicesBox4:hover h3::before,
 .servicesBox4:hover h3::after {
-  background-color: #000000;
+  background-color: #000000 ;
   z-index: 1;
 }
 
@@ -1282,7 +1282,6 @@ footer.footer::before {
 .bigHeading{
   color: #1A69B4;
 }
-
 
 
 
@@ -2495,4 +2494,108 @@ cursor:pointer;
 /* our projects start */
 
 /* wexor bg */
+
+/* .vasanth::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  padding: 2.5px; 
+
+  background: linear-gradient(135deg, #00000000, #1E90FF);
+
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+
+  z-index: -1;
+} */
+
+/* Glow effect (only outside) */
+/* .vasanth::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 14px;
+
+  background: linear-gradient(135deg, #000000, #000000);
+  filter: blur(10px);
+  opacity: 0.4;
+
+  z-index: -2;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 768px){
+
+  .vasanth::before,
+  .vasanth::after{
+    display: none;
+  }
+
+} */
+/* .servicesBox1:hover, .servicesBox2:hover, .servicesBox3:hover, .servicesBox4:hover{
+  background-color: #1A69B4 !important;
+} */
+
+/* @media (max-width: 768px){
+
+  .servicesBox1:hover,
+  .servicesBox2:hover,
+  .servicesBox3:hover,
+  .servicesBox4:hover{
+    background-color: #1A69B4 !important;
+  }
+
+} */
+
 /* wexor bg */
+.vmv-card{
+  position: relative;
+  overflow: hidden;
+}
+
+/* Blue corner glow */
+.vmv-card::before{
+  content: "";
+
+  position: absolute;
+
+  top: -80px;
+  right: -80px;
+
+  width: 180px;
+  height: 180px;
+
+  background: radial-gradient(
+    circle,
+    rgba(26, 106, 180, 0.615) 0%,
+    transparent 70%
+  );
+
+  filter: blur(40px);
+
+  z-index: 0;
+}
+.vmv-card *{
+  position: relative;
+  z-index: 2;
+}
