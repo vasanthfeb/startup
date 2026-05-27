@@ -874,7 +874,7 @@ footer.footer::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/four_icon/webdev.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/four_icon/webdev.webp");
   background-position: center;
   background-size: cover;
   opacity: 0; /* Initially hide the background image */
@@ -910,7 +910,7 @@ footer.footer::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/four_icon/gd.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/four_icon/gd.webp");
   background-position: center;
   background-size: cover;
   opacity: 0; /* Initially hide the background image */
@@ -982,7 +982,7 @@ footer.footer::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/four_icon/seo.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("./img/four_icon/seo.webp");
   background-position: center;
   background-size: cover;
   opacity: 0; /* Initially hide the background image */
@@ -2826,3 +2826,90 @@ cursor:pointer;
 .icon_pad{
       padding: 13px  !important;
      } 
+/* ==============   insta gaallery start ====================*/
+
+     .insta-gallery{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 25px;
+}
+
+.instagram-media{
+  width: 100% !important;
+  min-width: 100% !important;
+  border-radius: 20px !important;
+  overflow: hidden !important;
+} 
+
+/* Hide bottom Instagram actions */
+
+.instagram-media iframe{
+  height: 720px !important;
+}
+
+/* Hide bottom area */
+.instagram-media{
+  overflow: hidden !important;
+}
+@media(max-width:768px){
+
+  .insta-gallery{
+    grid-template-columns: 1fr;
+  }
+
+}
+
+.reels-grid{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 25px;
+}
+.reel-card{
+  width: 100%;
+}
+
+.reels-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 25px;
+}
+
+.instagram-media{
+  width: 100% !important;
+  min-width: 100% !important;
+
+  border-radius: 25px !important;
+
+  overflow: hidden !important;
+}
+
+/* MOBILE */
+
+@media(max-width:991px){
+
+  .reels-grid{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+}
+
+@media(max-width:600px){
+
+  .reels-grid{
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+/* ================ end ===============*/
+
+@media (max-width: 768px){
+
+  .servicesBox1 .d-md-flex,
+  .servicesBox3 .d-md-flex{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
+}

@@ -1,6 +1,6 @@
 <?php
 
-if($_SERVER["REQUEST_METHOD"] == "POST"){
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $name    = htmlspecialchars($_POST['name']);
     $email   = htmlspecialchars($_POST['email']);
@@ -12,19 +12,22 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     $body = "
     Name: $name
+
     Email: $email
+
     Phone: $phone
 
     Message:
     $message
     ";
 
-    $headers = "From: $email";
+    $headers = "From: $email" . "\r\n";
+$headers .= "CC: vasanthfeb18@gmail.com";
 
-    if(mail($to, $subject, $body, $headers)){
-        echo "Message Sent Successfully!";
+    if(mail($to, $subject, $body, $headers)) {
+        echo "success";
     } else {
-        echo "Message Failed!";
+        echo "error";
     }
 
 }
