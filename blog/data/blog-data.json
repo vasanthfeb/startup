@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "How SEO Helps Small Businesses Get More Customers",
+        "date": "2026-06-20",
+        "category": "SEO",
+        "image": "assets/images/seo-guide.jpg",
+        "url": "post/seo-guide.html",
+        "excerpt": "Learn how SEO can increase your website visibility and attract more customers."
+    },
+    {
+        "id": 2,
+        "title": "WordPress vs Custom Website: Which is Better?",
+        "date": "2026-06-29",
+        "category": "WordPress",
+        "image": "assets/images/wordpress-vs-custom.jpg",
+        "url": "post/wordpress-vs-custom.html",
+        "excerpt": "Compare WordPress and custom websites to choose the best option for your business."
+    },
+    {
+        "id": 3,
+        "title": "Why Every Business Needs a Website in 2026",
+        "date": "2026-06-15",
+        "category": "Web Design",
+        "image": "assets/images/business-website.jpg",
+        "url": "post/business-website.html",
+        "excerpt": "Discover why having a professional website is essential for modern businesses."
+    },
+    {
+        "id": 4,
+        "title": "Top Website Design Trends for 2026",
+        "date": "2026-06-10",
+        "category": "Web Design",
+        "image": "assets/images/design-trends.jpg",
+        "url": "post/design-trends.html",
+        "excerpt": "Explore the latest web design trends that are shaping the digital world."
+    },
+    {
+        "id": 5,
+        "title": "Google Business Profile Optimization Guide",
+        "date": "2026-06-05",
+        "category": "Marketing",
+        "image": "assets/images/google-business-profile.jpg",
+        "url": "post/google-business-profile.html",
+        "excerpt": "Improve your local visibility with a fully optimized Google Business Profile."
+    }
+]
