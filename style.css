@@ -2683,12 +2683,16 @@ cursor:pointer;
 
 .testimonial-card{
   min-width: 390px;
-  background: rgba(255,255,255,0.03);
+  /* background: rgba(255,255,255,0.03); */
+  background-color: #131313;
   border: 1px solid rgba(26,105,180,0.2);
   border-radius: 30px;
   padding: 35px;
   backdrop-filter: blur(12px);
   transition: 0.4s ease;
+}
+.icon_pad{
+  background-color: #131313;
 }
 
 .testimonial-card:hover{
@@ -3093,3 +3097,52 @@ cursor:pointer;
     }
 
 }
+/* 
+.bg-glow{
+    position:fixed;
+    width:700px;
+    height:700px;
+    border-radius:50%;
+    background:radial-gradient(circle,
+        rgba(10, 132, 255, 0.74) 0%,
+        rgba(10,132,255,.10) 45%,
+        transparent 75%);
+    filter:blur(150px);
+
+    top:-150px;
+    left:-150px;
+
+    pointer-events:none;
+    z-index:-1;
+
+    animation: moveGlow 40s ease-in-out infinite alternate;
+}
+
+@keyframes moveGlow{
+
+    0%{
+        top:-150px;
+        left:-150px;
+    }
+
+    25%{
+        top:10%;
+        left:65%;
+    }
+
+    50%{
+        top:55%;
+        left:55%;
+    }
+
+    75%{
+        top:65%;
+        left:10%;
+    }
+
+    100%{
+        top:20%;
+        left:35%;
+    }
+
+} */
